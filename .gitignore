@@ -116,7 +116,7 @@ coverage.xml
 *.log.*
 logs/
 
-# ── Temp and debug files ──────────────────────────────────────
+# ── Temp & debug files ──────────────────────────────────────
 *.tmp
 *.bak
 *.swp
