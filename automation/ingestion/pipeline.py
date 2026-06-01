@@ -24,8 +24,9 @@ from automation.ingestion.custody   import (
     create_custody_record, log_action,
     log_hash_verification, export_custody_report
 )
-from automation.workflows.autopsy_runner import run_autopsy
-from automation.workflows.normalizer     import run_normalizer
+from automation.workflows.autopsy_runner   import run_autopsy
+from automation.workflows.normalizer       import run_normalizer
+from automation.workflows.report_generator import generate_report
 
 
 def banner():
@@ -115,7 +116,15 @@ def run_pipeline(image_path: str) -> dict:
     total = run_normalizer(db_path, case_id=case_id)
     ok(f"Normalized {total:,} artifacts")
 
-    # ── Step 7: Wrap up ───────────────────────────────────────
+    # ── Step 7: Generate investigation report ────────────────
+    step(7, "Generating investigation report")
+    report_path = generate_report(case_id=case_id)
+    if report_path:
+        ok(f"Report written : {report_path}")
+    else:
+        ok("Report skipped — no artifacts found")
+
+    # ── Step 8: Wrap up ───────────────────────────────────────
     step(7, "Finalising pipeline run")
     elapsed = time.time() - start_time
 
@@ -130,6 +139,7 @@ def run_pipeline(image_path: str) -> dict:
 
     ok(f"Pipeline complete in {elapsed:.1f}s")
     ok(f"Artifacts normalized : {total:,}")
+    ok(f"Report               : docs/investigation_report.txt")
     ok(f"Custody log          : docs/custody_log.jsonl")
     ok(f"Normalized output    : data/normalized/artifacts.jsonl")
 
