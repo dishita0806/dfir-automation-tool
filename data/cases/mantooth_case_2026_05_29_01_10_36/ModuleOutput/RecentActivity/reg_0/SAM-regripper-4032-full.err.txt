@@ -1,5 +1,0 @@
-Parsed Plugins file.
-Launching samparse v.20200825
-samparse complete.
-Launching samparse_tln v.20200825
-samparse_tln complete.

@@ -1,7 +1,0 @@
-4032	/img_Mantooth 3.e01/vol_vol2/Windows/System32/config/SAM
-452	/img_Mantooth 3.e01/vol_vol2/Users/Dracula/NTUSER.DAT
-3118	/img_Mantooth 3.e01/vol_vol2/Users/Wes Mantooth/NTUSER.DAT
-3187	/img_Mantooth 3.e01/vol_vol2/Users/Wes Mantooth/NTUSER.DAT
-4041	/img_Mantooth 3.e01/vol_vol2/Windows/System32/config/SYSTEM
-4038	/img_Mantooth 3.e01/vol_vol2/Windows/System32/config/SOFTWARE
-4035	/img_Mantooth 3.e01/vol_vol2/Windows/System32/config/SECURITY
