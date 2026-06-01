@@ -1,0 +1,180 @@
+<logon>
+<mtime>Tue Feb 12 18:44:12 2008</mtime><artifacts>
+</artifacts></logon>
+----------------------------------------
+<recentdocs><mtime>Tue Feb 12 21:38:55 2008</mtime><artifacts>
+<doc name="Windows">Tooth Docs</doc>
+<doc name="Windows">Wes.fang</doc>
+<doc name="Windows">WM.fang</doc>
+<doc name="Windows">WM.tooth</doc>
+<doc name="Windows">Vista Mantooth Bitlocker Key 1.4.txt</doc>
+<doc name="Windows">Wes Mantooth Image_Key_Dustin.txt</doc>
+<doc name="Windows">default</doc>
+<doc name="Windows">aim.ini</doc>
+<doc name="Windows">yahoo.ini</doc>
+<doc name="Windows">msn.ini</doc>
+<doc name="Windows">Secret Stuff</doc>
+<doc name="Windows">fun81.jpg</doc>
+<doc name="Windows">Funny Vids.zip</doc>
+<doc name="Windows">cathelmet.jpg</doc>
+<doc name="Windows">Jaws Cat.jpg</doc>
+<doc name="Windows">useles_cat.jpg</doc>
+<doc name="Windows">clean-dazed-kitty.jpg</doc>
+<doc name="Windows">My Internet Clearning Folder (\\mediacenter) (M:)</doc>
+<doc name="Windows">WASHER (F:)</doc>
+<doc name="Windows">New Text Document.txt</doc>
+<doc name="Windows">Misc Docs</doc>
+<doc name="Windows">You Got it!.txt</doc>
+<doc name="Windows">securityevt.evtx</doc>
+<doc name="Windows">testevt.evtx</doc>
+<doc name="Windows">Johns Stuff (\\TRAINING-KEN)</doc>
+<doc name="Windows">snaggle_kitty.jpg</doc>
+<doc name="Windows">key.bek</doc>
+<doc name="Windows">MANTOOTH (F:)</doc>
+<doc name="Windows">Enrollment approved for Web seminar Ken and Mitch's FTK 2 Test.htm</doc>
+<doc name="Windows">Logs</doc>
+<doc name="Windows">Internet Explorer.evtx</doc>
+<doc name="Windows">Juncion.exe</doc>
+<doc name="Windows">Junction v1_04.mht</doc>
+<doc name="Windows">How to create and manipulate NTFS junction points.mht</doc>
+<doc name="Windows">Family Pix</doc>
+<doc name="Windows">Dear ole Dad.jpg</doc>
+<doc name="Windows">Wes.jpg</doc>
+<doc name="Windows">Other Uncle Jon.jpg</doc>
+<doc name="Windows">Prefetch</doc>
+<doc name="Windows">BESTCRYPT.EXE-7DE5BC83.pf</doc>
+<doc name="Windows">Microsoft-Windows-ReadyBoost%4Operational.evtx</doc>
+<doc name="Windows">Scripts</doc>
+<doc name="Windows">nationaltall.bmp</doc>
+<doc name="Windows">nationaltall.gif</doc>
+<doc name="Windows">Prescription2.gif</doc>
+<doc name="Windows">doc-prescription.jpg</doc>
+<doc name="Windows">prescription.gif</doc>
+<doc name="Windows">Bitlocker Command.txt.txt</doc>
+<doc name="Windows">Mantooth Vista 1.4 Key.txt</doc>
+<doc name="Windows">key.txt</doc>
+<doc name="Windows">Removable Disk (E:)</doc>
+<doc name="Windows">urls.txt.txt</doc>
+<doc name="Windows">recbinDustin.ad1</doc>
+<doc name="Windows">RECBIN Dustin.ad1</doc>
+<doc name="Windows">recbin.ad1</doc>
+<doc name="Windows">EFS DOCS</doc>
+<doc name="Windows">John.doc</doc>
+<doc name="Windows">Wes.doc</doc>
+<doc name="Windows">CC Nums.xls</doc>
+<doc name="Windows">C money plates.doc</doc>
+<doc name="Windows">penguin_waiter_with_tray_sm_wht.gif</doc>
+<doc name="Windows">Dear Sweetie2.doc</doc>
+<doc name="Windows">Dear Sweetie.doc</doc>
+<doc name="Windows">Ape_20shoot.gif</doc>
+<doc name="Windows">Business Ideas</doc>
+<doc name="Windows">ATM_THEFTS1.ppt</doc>
+<doc name="Windows">Camera.bmp</doc>
+<doc name="Windows">Guts.bmp</doc>
+<doc name="Windows">untitled.bmp</doc>
+<doc name="Windows">~ar1730.xar</doc>
+<doc name="Windows">Those who owes.xls</doc>
+<doc name="Windows">Excel</doc>
+<doc name="Windows">new</doc>
+<doc name="Windows">edb00007.log</doc>
+<doc name="Windows">Car Titles</doc>
+<doc name="Windows">seanbefore</doc>
+<doc name="Windows">Checks</doc>
+<doc name="Windows">seanbefore.zip</doc>
+<doc name="Windows">Local Disk (C:)</doc>
+<doc name="Windows">mykey.txt</doc>
+<doc name="Windows">Worker</doc>
+<doc name="Windows">WorkerLog.txt</doc>
+<doc name="Windows">Super Secret Stuff.zip</doc>
+<doc name="Windows">Super Secret Stuff</doc>
+<doc name="Windows">ar_test_نقيصته.doc</doc>
+<doc name="Windows">russ_4_ящеркой.doc</doc>
+<doc name="Windows">russ_2_Абажурный.doc</doc>
+<doc name="Windows">burgerkingandronald.gif</doc>
+<doc name="Windows">101MSDCF</doc>
+<doc name="Windows">Pix</doc>
+<doc name="Windows">Bill_Gates.gif</doc>
+<doc name="Windows">Sounds and Video</doc>
+<doc name="Windows">order851797-2007-04-12-13-17-02 (1).pdf</doc>
+<doc name="Windows">funny.png</doc>
+<doc name="Windows">Z169PCHK_e.gif</doc>
+<doc name="Windows">C01VNCCHK_e.gif</doc>
+<doc name="Windows">91064B.gif</doc>
+<doc name="Windows">order851797-2007-04-12-13-17-02.pdf</doc>
+<doc name="Windows">Mr Smee</doc>
+<doc name="Windows">165183.html</doc>
+<doc name="Windows">Removable Disk (F:)</doc>
+<doc name="Windows">restoredsalty</doc>
+</artifacts></recentdocs>
+----------------------------------------
+<runMRU>
+<mtime>Tue Feb 12 19:28:02 2008</mtime>
+<artifacts>
+<MRUList>qponmlkjihgfedcba</MRUList>
+<MRU>a   cmd\1</MRU>
+<MRU>b   mstsc\1</MRU>
+<MRU>c   www.google.com\1</MRU>
+<MRU>d   mspaint\1</MRU>
+<MRU>e   msconfig\1</MRU>
+<MRU>f   c:\gdisk32.exe\1</MRU>
+<MRU>g   mmc\1</MRU>
+<MRU>h   notepad\1</MRU>
+<MRU>i   defrag\1</MRU>
+<MRU>j   regedt32 12:23 /interactive\1</MRU>
+<MRU>k   www.hellokitty.com\1</MRU>
+<MRU>l   www.bigbadandugly.com\1</MRU>
+<MRU>m   www.sourceforge.net\1</MRU>
+<MRU>n   calc\1</MRU>
+<MRU>o   devmgmt.msc\1</MRU>
+<MRU>p   explorer\1</MRU>
+<MRU>q   regedt32\1</MRU>
+</artifacts>
+</runMRU>
+----------------------------------------
+<shellfolders>
+<mtime>Tue Feb 27 18:34:14 2007</mtime>
+<artifacts>
+<shell name="!Do not use this registry key"> Use the SHGetFolderPath or SHGetKnownFolderPath function instead</shell>
+<shell name="Local AppData"> C:\Users\Wes Mantooth\AppData\Local</shell>
+<shell name="My Video"> C:\Users\Wes Mantooth\Videos</shell>    
+<shell name="AppData"> C:\Users\Wes Mantooth\AppData\Roaming</shell>
+<shell name="My Pictures"> C:\Users\Wes Mantooth\Pictures</shell>  
+<shell name="Desktop"> C:\Users\Wes Mantooth\Desktop</shell>   
+<shell name="History"> C:\Users\Wes Mantooth\AppData\Local\Microsoft\Windows\History</shell>
+<shell name="NetHood"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Network Shortcuts</shell>
+<shell name="Cookies"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Cookies</shell>
+<shell name="Favorites"> C:\Users\Wes Mantooth\Favorites</shell> 
+<shell name="SendTo"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\SendTo</shell>
+<shell name="Start Menu"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Start Menu</shell>
+<shell name="My Music"> C:\Users\Wes Mantooth\Music</shell>     
+<shell name="Programs"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs</shell>
+<shell name="Recent"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Recent</shell>
+<shell name="CD Burning"> C:\Users\Wes Mantooth\AppData\Local\Microsoft\Windows\Burn\Burn</shell>
+<shell name="PrintHood"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Printer Shortcuts</shell>
+<shell name="Startup"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup</shell>
+<shell name="Administrative Tools"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools</shell>
+<shell name="Personal"> C:\Users\Wes Mantooth\Documents</shell> 
+<shell name="Cache"> C:\Users\Wes Mantooth\AppData\Local\Microsoft\Windows\Temporary Internet Files</shell>
+<shell name="Templates"> C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Windows\Templates</shell>
+<shell name="Fonts"> C:\Windows\Fonts</shell>                
+
+</artifacts></shellfolders>
+----------------------------------------
+----------------------------------------
+<office>
+<mtime> Tue Apr 17 23:24:59 2007</mtime>
+<artifacts>
+<Word name="Dear Sweetie.doc Dear Sweetie2.doc">1</Word>
+<Excel name="File1">C:\Users\Wes Mantooth\Desktop\~ar1730.xar</Excel>
+<Excel name="File2">C:\Users\Wes Mantooth\Desktop\Those who owes.xls</Excel>
+<PowerPoint name="File1">E:\Business Ideas\ATM_THEFTS1.ppt</PowerPoint>
+<PowerPoint name="File2">C:\Users\Wes Mantooth\Desktop\ATM_THEFTS1.ppt</PowerPoint>
+</artifacts>
+</office>
+----------------------------------------
+<NtuserNetwork>
+<mtime></mtime>
+<artifacts>
+<network localPath="Network\M">\\mediacenter\My Internet Clearning Folder</network>
+</artifacts></NtuserNetwork>
+----------------------------------------

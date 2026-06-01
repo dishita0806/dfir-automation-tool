@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.1</version>
+    <build_environment>
+      <compiler>GCC 6.4, Cygwin 2009.0</compiler>
+      <library name='libext2fs' version='1.43.1'/>
+      <library name='libewf' version='20140608'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.5.0'/>
+      <library name='libntfs' version='10:0:0'/>
+      <library name='zlib' version='1.2.11'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Windows</os_sysname>
+      <os_release>Windows 8 (9200)</os_release>
+      <os_version>Windows 8 (9200)</os_version>
+      <host>DESKTOP-159QGDV</host>
+      <arch>x86_64</arch>
+      <uid>197609</uid>
+      <start_time>2026-05-29T01:12:29+0530</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\PhotoRec Carver\1_05-29-2026-01-11-30-0610\Unalloc_4236_3267072_106657792</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>7581696</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='7581696'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0000000.gif</filename>
+    <filesize>7715</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='0' len='8192'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0000757.reg</filename>
+    <filesize>1528320</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='387584' len='1528320'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003742.jpg</filename>
+    <filesize>26494</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1915904' len='26624'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003817_Exhuming_the_Vampire.doc</filename>
+    <filesize>40960</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1954304' len='40960'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003897.jpg</filename>
+    <filesize>3184</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='1995264' len='3584'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0003911.jpg</filename>
+    <filesize>69976</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2002432' len='70144'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0004340.png</filename>
+    <filesize>24641</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2222080' len='25088'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0004389_Vampire.doc</filename>
+    <filesize>73728</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2247168' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0004533.jpg</filename>
+    <filesize>39881</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2320896' len='39936'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0004611.doc</filename>
+    <filesize>19456</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2360832' len='19456'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0004709_Another_test_file_for_Arabic.doc</filename>
+    <filesize>19456</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2411008' len='19456'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0005441.reg</filename>
+    <filesize>2718720</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='2785792' len='2718720'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010751_Astral_Vampire.doc</filename>
+    <filesize>38912</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5504512' len='38912'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0014087.jpg</filename>
+    <filesize>18400</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7212544' len='18432'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0014125_Another_test_file_for_Arabic.doc</filename>
+    <filesize>19456</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7232000' len='19456'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

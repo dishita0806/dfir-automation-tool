@@ -1,0 +1,1053 @@
+2026-05-29 01:10:36.7 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Saving case metadata to file...
+2026-05-29 01:10:37.037 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Creating case database...
+2026-05-29 01:10:44.213 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening case-level services...
+2026-05-29 01:10:44.745 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening application service case resources...
+2026-05-29 01:10:44.746 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:10:44.752 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Checking for schema updates...
+2026-05-29 01:10:44.773 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2026-05-29 01:10:44.8 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Starting events listener...
+2026-05-29 01:10:44.808 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:10:44.808 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:10:44.816 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:10:44.816 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:10:44.819 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Looking for text index metadata file, 7 of 0 total work units completed
+2026-05-29 01:10:44.823 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Creating new text index, 1 of 0 total work units completed
+2026-05-29 01:10:44.847 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening text index. For large cases this may take several minutes., 6 of 0 total work units completed
+2026-05-29 01:10:44.848 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2026-05-29 01:10:44.869 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-05-29 01:10:44.87 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2026-05-29 01:10:44.895 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2026-05-29 01:10:51.144 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2026-05-29 01:10:51.328 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Text index successfully opened, 7 of 0 total work units completed
+2026-05-29 01:10:51.329 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:10:51.33 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:10:51.343 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opening Image Gallery databases...
+2026-05-29 01:10:52.592 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2026-05-29 01:10:53.362 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.49.1.0 loaded in native mode
+2026-05-29 01:10:54.09 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Opened Image Gallery databases.
+2026-05-29 01:10:54.091 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:10:54.092 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:10:54.092 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened mantooth_case (mantooth_case_20260529_011036) in C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36 as the current case
+2026-05-29 01:11:00.326 org.sleuthkit.autopsy.commandlineingest.CommandLineManager createCase
+INFO: Created case mantooth_case_20260529_011036
+2026-05-29 01:11:00.702 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask run
+INFO: Processing 'Add Data Source' command
+2026-05-29 01:11:00.715 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask runDataSourceProcessor
+INFO: Adding data source C:\Users\dishita\Downloads\dfir-automation-tool\data\images\Mantooth 3.e01 
+2026-05-29 01:11:03.532 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask runDataSourceProcessor
+INFO: Identified data source type for C:\Users\dishita\Downloads\dfir-automation-tool\data\images\Mantooth 3.e01 as Disk Image or VM File
+2026-05-29 01:11:11.687 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask logDataSourceProcessorResult
+INFO: Added data source to case
+2026-05-29 01:11:11.733 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask run
+INFO: Processing 'Run Ingest' command
+2026-05-29 01:11:11.734 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask analyze
+INFO: Starting ingest modules analysis for C:\Users\dishita\Downloads\dfir-automation-tool\data\images\Mantooth 3.e01 
+2026-05-29 01:11:13.455 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2026-05-29 01:11:13.58 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.23.1
+2026-05-29 01:11:13.739 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.23.1
+2026-05-29 01:11:13.871 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.23.1
+2026-05-29 01:11:14.006 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.23.1
+2026-05-29 01:11:14.009 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.23.1
+2026-05-29 01:11:14.125 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.23.1
+2026-05-29 01:11:14.224 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.23.1
+2026-05-29 01:11:14.315 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.23.1
+2026-05-29 01:11:14.315 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.23.1
+2026-05-29 01:11:14.436 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.23.1
+2026-05-29 01:11:14.436 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.23.1
+2026-05-29 01:11:14.596 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2026-05-29 01:11:14.717 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.23.1
+2026-05-29 01:11:14.847 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.23.1
+2026-05-29 01:11:14.946 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.23.1
+2026-05-29 01:11:15.049 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.23.1
+2026-05-29 01:11:15.073 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.23.1
+2026-05-29 01:11:15.099 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.23.1
+2026-05-29 01:11:15.122 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.23.1
+2026-05-29 01:11:19.47 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2026-05-29 01:11:19.471 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.23.1
+2026-05-29 01:11:20.388 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2026-05-29 01:11:21.881 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-05-29 01:11:26.57 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-05-29 01:11:27.76 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2026-05-29 01:11:27.915 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2026-05-29 01:11:27.917 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1779997287916
+2026-05-29 01:11:27.928 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2026-05-29 01:11:28.517 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2026-05-29 01:11:30.715 org.sleuthkit.autopsy.modules.yara.YaraIngestModule startUp
+INFO: YARA ingest module: No rule set was selected for this ingest job.
+2026-05-29 01:11:31.44 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file batch mode (data source = Mantooth 3.e01, data source object ID = 1, job ID = 0)
+2026-05-29 01:11:31.451 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of Mantooth 3.e01 starting
+2026-05-29 01:11:36.971 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\SAM
+2026-05-29 01:11:36.972 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SAM-regripper-4032-full.txt
+2026-05-29 01:11:38.551 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-05-29 01:11:38.551 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-452-autopsy.txt
+2026-05-29 01:11:39.774 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-452-full.txt
+2026-05-29 01:11:45.312 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-05-29 01:11:45.313 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-autopsy.txt
+2026-05-29 01:11:45.807 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.txt
+2026-05-29 01:11:45.807 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:11:45.807 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:11:45.886 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:11:46.836 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.838 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.839 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.84 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.84 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.84 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.84 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.84 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.84 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.842 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.843 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.844 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.845 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.847 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.847 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.847 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.847 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.847 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.847 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.848 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.849 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.85 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.852 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.853 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.853 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.853 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.853 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.853 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.853 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.855 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.856 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.856 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3118-full.err.txt contains errors from run
+2026-05-29 01:11:46.911 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\NTUSER.DAT
+2026-05-29 01:11:46.911 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3187-autopsy.txt
+2026-05-29 01:11:47.622 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\NTUSER.DAT-regripper-3187-full.txt
+2026-05-29 01:11:53.121 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\SYSTEM
+2026-05-29 01:11:53.121 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SYSTEM-regripper-4041-autopsy.txt
+2026-05-29 01:11:53.162 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractImagesFromXls
+WARNING: Excel (.xls) document container could not be initialized. Reason: Default password is invalid for salt/verifier/verifierHash
+2026-05-29 01:11:53.984 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SYSTEM-regripper-4041-full.txt
+2026-05-29 01:11:54.738 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory for$I30
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.74 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory for$I30
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.741 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory for07-09-very-old-man.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.742 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory for07-09-very-old-man.jpg-slack
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.743 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forchina.old_hmong_teeth%5B1%5D.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.744 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forchinamanbeard.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.745 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forchinamanbeard.jpg-slack
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.746 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forStreetman.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.747 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forStreetman.jpg-slack
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.748 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forwoman.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.749 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forwoman.jpg-slack
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4341
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.767 org.sleuthkit.autopsy.modules.pictureanalyzer.impls.EXIFProcessor process
+WARNING: Error parsing 07-09-very-old-man.jpg-slack (object ID = 4350), presumed corrupt
+java.io.EOFException: End of data reached.
+	com.drew.lang.StreamReader.getBytes(StreamReader.java:89)
+	com.drew.lang.StreamReader.getBytes(StreamReader.java:73)
+	com.drew.imaging.jpeg.JpegSegmentReader.readSegments(JpegSegmentReader.java:151)
+	com.drew.imaging.jpeg.JpegMetadataReader.process(JpegMetadataReader.java:124)
+	com.drew.imaging.jpeg.JpegMetadataReader.readMetadata(JpegMetadataReader.java:77)
+	com.drew.imaging.jpeg.JpegMetadataReader.readMetadata(JpegMetadataReader.java:84)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:146)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:124)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:103)
+	org.sleuthkit.autopsy.modules.pictureanalyzer.impls.EXIFProcessor.process(EXIFProcessor.java:81)
+	org.sleuthkit.autopsy.modules.pictureanalyzer.PictureAnalyzerIngestModule.process(PictureAnalyzerIngestModule.java:65)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:54.783 org.sleuthkit.autopsy.modules.pictureanalyzer.impls.EXIFProcessor process
+WARNING: Error parsing chinamanbeard.jpg-slack (object ID = 4352), presumed corrupt
+java.io.EOFException: End of data reached.
+	com.drew.lang.StreamReader.getBytes(StreamReader.java:89)
+	com.drew.lang.StreamReader.getBytes(StreamReader.java:73)
+	com.drew.imaging.jpeg.JpegSegmentReader.readSegments(JpegSegmentReader.java:151)
+	com.drew.imaging.jpeg.JpegMetadataReader.process(JpegMetadataReader.java:124)
+	com.drew.imaging.jpeg.JpegMetadataReader.readMetadata(JpegMetadataReader.java:77)
+	com.drew.imaging.jpeg.JpegMetadataReader.readMetadata(JpegMetadataReader.java:84)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:146)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:124)
+	com.drew.imaging.ImageMetadataReader.readMetadata(ImageMetadataReader.java:103)
+	org.sleuthkit.autopsy.modules.pictureanalyzer.impls.EXIFProcessor.process(EXIFProcessor.java:81)
+	org.sleuthkit.autopsy.modules.pictureanalyzer.PictureAnalyzerIngestModule.process(PictureAnalyzerIngestModule.java:65)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:55.31 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forold_people_illusion.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4342
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:55.311 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forold_people_illusion.jpg-slack
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4342
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:55.312 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forold_peoples.jpg
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4342
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:55.314 org.sleuthkit.autopsy.ingest.IngestTasksScheduler shouldEnqueueFileTask
+WARNING: Error querying parent directory forold_peoples.jpg-slack
+org.sleuthkit.datamodel.TskCoreException: Expecting an FS-type directory, got virtual, id: 4342
+	org.sleuthkit.datamodel.SleuthkitCase.getDirectoryById(SleuthkitCase.java:10026)
+	org.sleuthkit.datamodel.SleuthkitCase.getParentDirectory(SleuthkitCase.java:6094)
+	org.sleuthkit.datamodel.FsContent.getParentDirectory(FsContent.java:217)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.shouldEnqueueFileTask(IngestTasksScheduler.java:696)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.takeFromBatchTasksQueues(IngestTasksScheduler.java:604)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.refillFileIngestTasksQueue(IngestTasksScheduler.java:510)
+	org.sleuthkit.autopsy.ingest.IngestTasksScheduler.notifyTaskCompleted(IngestTasksScheduler.java:387)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:634)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1124)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-29 01:11:56.084 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.675 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.687 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.7 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.714 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.725 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.736 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.747 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:57.757 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:58.119 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:58.158 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:58.195 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:58.23 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:11:58.443 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:12:04.706 org.sleuthkit.autopsy.recentactivity.ExtractRegistry scanErrorLogs
+WARNING: Regripper file C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SYSTEM-regripper-4041-full.err.txt contains errors from run
+2026-05-29 01:12:05.912 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\SOFTWARE
+2026-05-29 01:12:05.913 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SOFTWARE-regripper-4038-autopsy.txt
+2026-05-29 01:12:07.072 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SOFTWARE-regripper-4038-full.txt
+2026-05-29 01:12:08.011 org.sleuthkit.autopsy.thunderbirdparser.MimeJ4MessageParser handleAttachment
+WARNING: Attachment has no file name using 'attachment1108706822'
+2026-05-29 01:12:08.081 org.sleuthkit.autopsy.thunderbirdparser.MimeJ4MessageParser handleAttachment
+WARNING: Attachment has no file name using 'attachment1418369792'
+2026-05-29 01:12:09.053 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:12:09.366 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:12:13.106 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:12:13.479 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:12:13.862 org.sleuthkit.autopsy.thunderbirdparser.ThunderbirdMboxFileIngestModule addEmailArtifact
+WARNING: Failed to find sender address, from  = 
+2026-05-29 01:12:29.64 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:12:29.675 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:12:29.717 org.sleuthkit.autopsy.modules.embeddedfileextractor.DocumentEmbeddedContentExtractor extractEmbeddedImagesFromDoc
+WARNING: Word document container could not be initialized. Reason: document is encrypted, password is invalid - use Biff8EncryptionKey.setCurrentUserPasswort() to set password before opening
+2026-05-29 01:12:38.751 org.sleuthkit.autopsy.recentactivity.ExtractRegistry analyzeRegistryFiles
+INFO: Windows Registry Analyzer- Now getting registry information from C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\reg_0\SECURITY
+2026-05-29 01:12:38.752 org.sleuthkit.autopsy.recentactivity.ExtractRegistry ripRegistryFile
+INFO: Writing Full RegRipper results to: C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36\ModuleOutput\RecentActivity\reg_0\SECURITY-regripper-4035-full.txt
+2026-05-29 01:12:39.898 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.901 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.904 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.906 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.908 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.91 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.913 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2026-05-29 01:12:39.923 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2026-05-29 01:12:39.923 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2026-05-29 01:12:39.923 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2026-05-29 01:12:39.924 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2026-05-29 01:12:39.924 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2026-05-29 01:12:39.924 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2026-05-29 01:12:39.925 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2026-05-29 01:12:39.929 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2026-05-29 01:12:41.29 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results
+2026-05-29 01:12:41.291 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.23.1\autopsy\pasco2
+2026-05-29 01:12:41.302 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.573.txt
+2026-05-29 01:12:42.331 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:42.342 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.577.txt
+2026-05-29 01:12:43.177 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:43.184 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.581.txt
+2026-05-29 01:12:43.846 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:43.852 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.591.txt
+2026-05-29 01:12:44.453 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:44.457 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.596.txt
+2026-05-29 01:12:45.095 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:45.099 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.770.txt
+2026-05-29 01:12:45.544 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:45.559 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.1119.txt
+2026-05-29 01:12:47.728 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:47.736 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.2209.txt
+2026-05-29 01:12:48.341 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:48.346 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.2257.txt
+2026-05-29 01:12:48.998 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.2333.txt
+2026-05-29 01:12:49.828 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:49.834 org.sleuthkit.autopsy.recentactivity.ExtractIE executePasco
+INFO: Writing pasco results to: C:\Users\dishita\AppData\Local\Temp\Autopsy\mantooth_case_20260529_011036\Temp\RecentActivity\IE_0\results\pasco2Result.2341.txt
+2026-05-29 01:12:50.908 org.sleuthkit.autopsy.recentactivity.ExtractIE parsePascoOutput
+INFO: Found unrecognized IE history format.
+2026-05-29 01:12:55.137 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 374 blackboard artifacts.
+2026-05-29 01:12:57.507 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 130 queries from the blackboard
+2026-05-29 01:12:57.508 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 130
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2026-05-29 01:12:57.511 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 374 blackboard artifacts.
+2026-05-29 01:12:57.622 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2026-05-29 01:13:05.814 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 554 blackboard artifacts.
+2026-05-29 01:13:06.495 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 4 distinct messaging domain(s) from the blackboard.  Of the 66 artifact(s) with valid hosts, 6 url(s) contained messaging domain suffix.
+2026-05-29 01:13:06.498 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:06.498 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:08.351 AndroidIngestModule process
+INFO: running 22 analyzers
+2026-05-29 01:13:08.429 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:08.43 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:08.526 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:08.527 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:08.527 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source Mantooth 3.e01
+2026-05-29 01:13:08.534 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source Mantooth 3.e01
+2026-05-29 01:13:08.534 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:08.534 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:08.537 org.sleuthkit.autopsy.modules.leappanalyzers.ALeappAnalyzerIngestModule process
+INFO: aLeapp: data source does not appear to be Android, skipping.
+2026-05-29 01:13:08.537 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:08.537 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:08.549 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:08.549 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:08.551 org.sleuthkit.autopsy.modules.leappanalyzers.ILeappAnalyzerIngestModule process
+INFO: iLeapp: data source does not appear to be iOS, skipping.
+2026-05-29 01:13:08.551 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:08.551 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = Mantooth 3.e01, data source object ID = 1, job ID = 0)
+2026-05-29 01:13:09.745 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = Mantooth 3.e01, data source object ID = 1, job ID = 0)
+2026-05-29 01:13:09.745 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of Mantooth 3.e01 starting
+2026-05-29 01:13:09.747 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 3,920
+2026-05-29 01:13:09.748 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash verification of Mantooth 3.e01
+2026-05-29 01:13:10.341 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from Mantooth 3.e01: 31217210a1a69f272079a3bde3d9d8fc
+2026-05-29 01:13:10.342 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of Mantooth 3.e01 finished
+2026-05-29 01:13:10.342 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = Mantooth 3.e01, data source object ID = 1, job ID = 0)
+2026-05-29 01:13:10.342 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = Mantooth 3.e01, data source object ID = 1, job ID = 0)
+2026-05-29 01:13:10.349 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed at 1779997390349
+2026-05-29 01:13:10.351 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask analyze
+INFO: Finished ingest modules analysis for C:\Users\dishita\Downloads\dfir-automation-tool\data\images\Mantooth 3.e01 
+2026-05-29 01:13:10.354 org.sleuthkit.autopsy.commandlineingest.CommandLineIngestManager$JobProcessingTask analyze
+INFO: Analysis of data source completed
+2026-05-29 01:13:10.359 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case mantooth_case (mantooth_case_20260529_011036) in C:\Users\dishita\Downloads\dfir-automation-tool\data\cases\mantooth_case_2026_05_29_01_10_36
+2026-05-29 01:13:10.359 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:13:10.36 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Closing case-specific application service resources...
+2026-05-29 01:13:10.36 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:13:10.36 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Finishing adding data to central repository database....
+2026-05-29 01:13:10.361 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:13:10.361 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:13:10.361 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:13:10.361 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:13:12.712 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:13:12.713 org.sleuthkit.autopsy.progress.LoggingProgressIndicator start
+INFO: Preparing...
+2026-05-29 01:13:12.713 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case mantooth_case (mantooth_case_20260529_011036)
+2026-05-29 01:13:12.724 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2026-05-29 01:13:12.726 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case mantooth_case (mantooth_case_20260529_011036)
+2026-05-29 01:13:12.726 org.sleuthkit.autopsy.progress.LoggingProgressIndicator finish
+INFO: Finished
+2026-05-29 01:13:12.726 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Closing case database...
+2026-05-29 01:13:12.747 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Clearing case temp directory...
+2026-05-29 01:13:12.79 org.sleuthkit.autopsy.progress.LoggingProgressIndicator progress
+INFO: Switching log directory...

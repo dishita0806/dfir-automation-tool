@@ -1,0 +1,3007 @@
+============================================================
+DFIR AUTOMATED INVESTIGATION REPORT
+============================================================
+Generated     : 2026-05-28T20:27:31Z
+Artifacts file: C:\Users\dishita\Downloads\dfir-automation-tool\data\normalized\artifacts.jsonl
+Total artifacts: 1,109
+
+
+============================================================
+EXECUTIVE SUMMARY
+============================================================
+
+Total artifacts extracted : 1,109
+
+Artifact breakdown:
+  Web History                           374
+  Web Search                            130
+  Shell Bag                             110
+  Recent Document                       109
+  Associated Object                      78
+  Email Message                          66
+  Account                                61
+  Web Cookie                             50
+  Installed Program                      40
+  Usb Device                             30
+  Run Program                            18
+  Recycle Bin                             9
+  Extension Mismatch                      9
+  Exif Metadata                           8
+  User Content                            8
+  Web Category                            4
+  Encryption Detected                     2
+  Remote Drive                            1
+  Os Info                                 1
+  Data Source Usage                       1
+
+============================================================
+KEY FINDINGS
+============================================================
+
+[!] 30 USB device(s) connected to this machine
+[!] Encryption detected in 2 file(s)
+[!] 9 file(s) found in Recycle Bin
+[!] 9 file(s) with mismatched extensions — possible file hiding
+[i] 130 web search(es) recorded
+[i] 66 email message(s) found
+
+
+============================================================
+WEB HISTORY (374 records)
+============================================================
+
+  [2007-04-10T12:31:01Z]
+    URL    : youtube.com/
+    Domain : youtube.com
+
+  [2007-04-10T12:31:51Z]
+    URL    : www.evidence-washer.com/
+    Domain : evidence-washer.com
+
+  [2007-04-10T14:28:07Z]
+    URL    : farfromboring.com/
+    Domain : farfromboring.com
+
+  [2007-04-10T14:41:42Z]
+    URL    : mamma.com/
+    Domain : mamma.com
+
+  [2007-04-10T14:46:42Z]
+    URL    : www.yahoo.com/
+    Domain : yahoo.com
+
+  [2007-04-10T14:48:32Z]
+    URL    : ask.com/
+    Domain : ask.com
+
+  [2007-04-10T14:49:00Z]
+    URL    : infospace.com/
+    Domain : infospace.com
+
+  [2007-04-10T15:00:32Z]
+    URL    : google.com/accounts/
+    Domain : google.com
+
+  [2007-04-10T15:00:40Z]
+    URL    : google.com/mail/
+    Domain : google.com
+
+  [2007-04-10T15:00:49Z]
+    URL    : www.google.com/accounts
+    Domain : google.com
+
+  [2007-04-10T15:00:57Z]
+    URL    : mail.google.com/mail
+    Domain : google.com
+
+  [2007-04-10T20:04:50Z]
+    URL    : www.truecrypt.org/
+    Domain : truecrypt.org
+
+  [2007-04-12T18:59:03Z]
+    URL    : pgp.com/
+    Domain : pgp.com
+
+  [2007-04-12T19:22:33Z]
+    URL    : live365.com/
+    Domain : live365.com
+
+  [2007-04-12T19:22:33Z]
+    URL    : onlinestores.metaservices.microsoft.com/serviceswitching/
+    Domain : microsoft.com
+
+  [2007-04-13T17:55:03Z]
+    URL    : www2.addfreestats.com/cgi-bin
+    Domain : addfreestats.com
+
+  [2007-04-13T17:55:22Z]
+    URL    : offermatica.com/m2/cnet
+    Domain : offermatica.com
+
+  [2007-04-13T17:55:24Z]
+    URL    : ads.pointroll.com/
+    Domain : pointroll.com
+
+  [2007-04-13T17:55:25Z]
+    URL    : revsci.net/
+    Domain : revsci.net
+
+  [2007-04-13T17:55:27Z]
+    URL    : com.com/
+    Domain : com.com
+
+  [2007-04-13T17:56:12Z]
+    URL    : www.download.com/
+    Domain : download.com
+
+  [2007-04-13T17:56:13Z]
+    URL    : download.com/
+    Domain : download.com
+
+  [2007-04-17T16:03:21Z]
+    URL    : mediaplex.com/
+    Domain : mediaplex.com
+
+  [2007-04-17T16:03:21Z]
+    URL    : insider.msg.yahoo.com/
+    Domain : yahoo.com
+
+  [2007-04-17T16:06:36Z]
+    URL    : edge.ru4.com/
+    Domain : ru4.com
+
+  [2007-04-17T16:06:37Z]
+    URL    : atwola.com/
+    Domain : atwola.com
+
+  [2007-04-17T16:06:46Z]
+    URL    : aol.com/
+    Domain : aol.com
+
+  [2007-04-17T16:07:09Z]
+    URL    : 2o7.net/
+    Domain : 2o7.net
+
+  [2007-06-18T17:57:07Z]
+    URL    : lockergnome.com/
+    Domain : lockergnome.com
+
+  [2007-06-21T15:34:44Z]
+    URL    : adbrite.com/
+    Domain : adbrite.com
+
+  [2007-06-21T15:44:15Z]
+    URL    : eatps.web.aol.com/
+    Domain : aol.com
+
+  [2007-06-21T15:57:28Z]
+    URL    : adopt.specificclick.net/
+    Domain : specificclick.net
+
+  [2007-06-21T16:52:16Z]
+    URL    : ar.atwola.com/html
+    Domain : atwola.com
+
+  [2007-06-21T16:52:17Z]
+    URL    : revsci.net/
+    Domain : revsci.net
+
+  [2007-06-21T16:52:22Z]
+    URL    : atdmt.com/
+    Domain : atdmt.com
+
+  [2007-06-21T16:53:02Z]
+    URL    : partner2profit.com/
+    Domain : partner2profit.com
+
+  [2007-06-21T16:53:08Z]
+    URL    : ads.web.aol.com/
+    Domain : aol.com
+
+  [2007-06-21T17:08:42Z]
+    URL    : atwola.com/
+    Domain : atwola.com
+
+  [2007-06-21T17:08:42Z]
+    URL    : 2o7.net/
+    Domain : 2o7.net
+
+  [2007-06-21T17:08:43Z]
+    URL    : advertising.com/
+    Domain : advertising.com
+
+  [2007-06-23T18:52:37Z]
+    URL    : atdmt.com/
+    Domain : atdmt.com
+
+  [2007-06-23T18:56:16Z]
+    URL    : yahoo.com/
+    Domain : yahoo.com
+
+  [2007-06-23T18:56:16Z]
+    URL    : google.com/
+    Domain : google.com
+
+  [2007-06-23T18:56:34Z]
+    URL    : search.live.com/
+    Domain : live.com
+
+  [2007-07-12T17:42:15Z]
+    URL    : http://www.google.com/
+    Domain : google.com
+
+  [2007-07-12T17:42:16Z]
+    URL    : www.google.com
+    Domain : google.com
+
+  [2007-07-12T17:42:16Z]
+    URL    : http://www.google.com
+    Domain : google.com
+
+  [2007-07-12T17:42:16Z]
+    URL    : http://www.google.com/favicon.ico
+    Domain : google.com
+
+  [2007-07-12T17:42:16Z]
+    URL    : http://www.google.com/intl/en_ALL/images/logo.gif
+    Domain : google.com
+
+  [2007-07-12T17:43:16Z]
+    URL    : http://www.snopes.com/crime/warnings/atmcamera.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:16Z]
+    URL    : www.snopes.com
+    Domain : snopes.com
+
+  [2007-07-12T17:43:16Z]
+    URL    : http://www.snopes.com/fraud/atm/atmcamera.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:16Z]
+    URL    : http://www.snopes.com/favicon.ico
+    Domain : snopes.com
+
+  [2007-07-12T17:43:16Z]
+    URL    : http://www.snopes.com/crime/warnings/atmcamera.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/nav_site_info.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/nav_random.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://te.burstnet.com/tte/blank.gif?cid=62152&cat=540&country=US
+    Domain : burstnet.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_09.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/nav_subscribe.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_02.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_08.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/nav_contact.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/common/templates/printer.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://an.tacoda.net/an/12030/slf.js
+    Domain : tacoda.net
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/nav_community.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_12.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://reference.snopes.com/common/include/bannerad_c.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/common/templates/envelope.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://m1.2mdn.net/viewad/1278576/2-1x1pixel.gif
+    Domain : 2mdn.net
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_10.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_01.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:17Z]
+    URL    : http://www.snopes.com/graphics/header/snopes_13.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://67.19.222.106/crime/graphics/camera06.jpg
+    Domain : 67.19.222.106
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://www.snopes.com/common/referenc.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://ad.doubleclick.net/adi/N2335.burstmedia.com/B2324554.77;sz=300x250;click=http://www.burstnet.com/ads/ad1874c-map.cgi/BCPG74464.104384.120283/SZ=300X250A/V=2.1S//REDIRURL=;ord=37201?
+    Domain : doubleclick.net
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://67.19.222.106/crime/graphics/camera01.jpg
+    Domain : 67.19.222.106
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-6608306193529351&dt=1184281998122&lmt=1184281997&format=125x125_as&output=html&correlator=1184281997739&channel=0054321535&url=http%3A%2F%2Fwww.snopes.com%2Ffraud%2Fatm%2Fatmcamera.asp&color_bg=EAF2E5&color_text=0000FF&color_link=0000FF&color_url=0000FF&color_border=EAF2E5&ad_type=text_image&cc=247&flash=9&u_h=1024&u_w=1280&u_ah=994&u_aw=1280&u_cd=32&u_tz=-360&u_his=2&u_java=true
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://67.19.222.106/crime/graphics/camera02.jpg
+    Domain : 67.19.222.106
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://67.19.222.106/crime/graphics/camera05.jpg
+    Domain : 67.19.222.106
+
+  [2007-07-12T17:43:18Z]
+    URL    : ?CodeDownloadErrorLog!name={00EF2092-6AC5-47C0-BD25-CF2D5D657FEB}
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://m1.2mdn.net/617966/CC_3n1_Ontop_Q306_728x90.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/358c/7/67/%252a/u%253B62188836%253B1-0%253B0%253B14995377%253B3454-728/90%253B19243013/19260908/1%253B%253B%257Esscs%253D%253fhttp%3A//www.burstnet.com/ads/ad1874c-map.cgi/BCPG62152.90175.102520/SZ%3D468X60A%257C728X90A/V%3D2.1S//REDIRURL%3Dhttp%3A//myservices.equifax.com/1Q04_tri
+    Domain : 2mdn.net
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://67.19.222.106/crime/graphics/camera04.jpg
+    Domain : 67.19.222.106
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://67.19.222.106/crime/graphics/camera03.jpg
+    Domain : 67.19.222.106
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://ad.doubleclick.net/adi/N1727.Burstmedia/B2099692.6;sz=728x90;click=http://www.burstnet.com/ads/ad1874c-map.cgi/BCPG62152.90175.102520/SZ=468X60A%7C728X90A/V=2.1S//REDIRURL=;ord=73818?
+    Domain : doubleclick.net
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://www.snopes.com/common/page.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:18Z]
+    URL    : http://www.snopes.com/common/templates/advanced.gif
+    Domain : snopes.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://www.snopes.com/fraud/atm/atmcamera.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://www.snopes.com/fraud/atm/atmcamera.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://ad.doubleclick.net/adi/N2998.BurstMedia/B2365042.16;sz=160x600;click=http://www.burstnet.com/ads/sk1874c-map.cgi/BCPG74701.104716.120711/SZ=120X600A%7C160X600A/V=2.1S//REDIRURL=;ord=45431?
+    Domain : doubleclick.net
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://m1.2mdn.net/879366/flashwrite_1_2.js
+    Domain : 2mdn.net
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/abglogo/abg-en-100c-ffffff.png
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://reference.snopes.com/common/include/skyad_c.asp
+    Domain : snopes.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/js/graphics2.js
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/abglogo/abg-en-100c-000000.png
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-6608306193529351&dt=1184281999199&lmt=1184281999&prev_fmts=125x125_as&format=468x60_as&output=html&correlator=1184281997739&channel=0054321535&pv_ch=0054321535%2B&url=http%3A%2F%2Fwww.snopes.com%2Ffraud%2Fatm%2Fatmcamera.asp&color_border=000000&ad_type=text_image&cc=246&flash=9&u_h=1024&u_w=1280&u_ah=994&u_aw=1280&u_cd=32&u_tz=-360&u_his=2&u_java=true
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://m1.2mdn.net/1279352/160x600_070907_WT_premium_pricing_plan_env_149.swf?clickTag=http%3A//ad.doubleclick.net/click%253Bh%3Dv8/358c/7/6a/%252a/m%253B113236013%253B0-0%253B0%253B17713310%253B2321-160/600%253B21712879/21730769/1%253B%253B%257Esscs%253D%253fhttp%3A//www.burstnet.com/ads/sk1874c-map.cgi/BCPG74701.104716.120711/SZ%3D120X600A%257C160X600A/V%3D2.1S//REDIRURL%3Dhttp%3A//estore.vzwshop.com/oa/premiumplan
+    Domain : 2mdn.net
+
+  [2007-07-12T17:43:19Z]
+    URL    : http://m1.2mdn.net/viewad/1413238/4-300x250DIwebgen.gif
+    Domain : 2mdn.net
+
+  [2007-07-12T17:44:17Z]
+    URL    : file/Business%20Ideas/untitled.bmp
+
+  [2007-07-12T17:44:53Z]
+    URL    : file/Business%20Ideas/Guts.bmp
+
+  [2007-07-12T17:45:00Z]
+    URL    : http://b.casalemedia.com/V2/44508/86958/index.html?www.snopes.com/fraud/atm/atmcamera.asp
+    Domain : casalemedia.com
+
+  [2007-07-12T17:45:00Z]
+    URL    : http://b.casalemedia.com/V2/44508/86958/index.html?www.snopes.com/fraud/atm/atmcamera.asp
+    Domain : casalemedia.com
+
+  [2007-07-12T17:45:00Z]
+    URL    : b.casalemedia.com
+    Domain : casalemedia.com
+
+  [2007-07-12T17:45:00Z]
+    URL    : http://b.casalemedia.com/V2/44508/86958/Classmates-720_500.gif
+    Domain : casalemedia.com
+
+  [2007-07-12T17:45:00Z]
+    URL    : http://b.casalemedia.com/V2/44508/86958/index.html?www.snopes.com/fraud/atm/atmcamera.asp
+    Domain : casalemedia.com
+
+  [2007-07-12T17:45:11Z]
+    URL    : file/Business%20Ideas/Camera.bmp
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:nZOxJlpUp4XSZM:http://www.utexas.edu/police/alerts/atm_scam/atm1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:49wXfiIFVAmBrM:http://www.ou.edu/oupd/idtheft-clown4.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:5-KcSCftkfXOsM:http://farm1.static.flickr.com/142/329572110_802dcdd12a.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:lHnwR5xCJlrdJM:http://www.ministryoftech.com/images/hacked-atm.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:LGtYug1HFUtv3M:http://forum2.breakthechain.org/uploads/atm4.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:kzgGjKrakDCsXM:http://www.crimesceneblog.com/images/ca_rapist/video01.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:LiWLsR3P6YRS3M:http://www.utexas.edu/police/alerts/atm_scam/atm4.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:_a_eX1iNQc85sM:http://farm1.static.flickr.com/142/329572110_802dcdd12a_o.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:rOKDXUVAgufrGM:http://z.about.com/d/urbanlegends/1/0/Q/B/atm001_sm.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:6Vi5Ho2kXz2B3M:http://www.diebold.com/atmsecurity/images/atm_trapping.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:9lA0tzHuYZ-RlM:http://www.epica-awards.org/assets/epica/2006/winners/print/images/27-01109-POS%2520%2520%2520Jobsintown0%2520%2520%2520x063.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:74aovRmz0xeOnM:http://z.about.com/d/urbanlegends/1/0/R/B/atm002_sm.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://tbn0.google.com/images?q=tbn:BCfYd-Bgp42YvM:http://forum2.breakthechain.org/uploads/atm1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:23Z]
+    URL    : http://images.google.com/images?um=1&tab=wi&hl=en&q=atm%20card%20stealing
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://images.google.com/images?um=1&tab=wi&hl=en&q=atm%20card%20stealing
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : images.google.com
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://images.google.com/images?um=1&tab=wi&hl=en&q=atm%20card%20stealing
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://tbn0.google.com/images?q=tbn:E1G_U54dgvmz5M:http://blogs.kansascity.com/photos/uncategorized/suspects_in_attempted_rape.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://tbn0.google.com/images?q=tbn:wrAqtImCJ4VFAM:http://www.hoax-slayer.com/images/atm2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://tbn0.google.com/images?q=tbn:KUL4onKpTT_tdM:http://spartacus.blogs.com/spartacus/spartacus/2006/02/12_1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://tbn0.google.com/images?q=tbn:EZv6f2xLnEAY7M:http://www.ericandjoan.com/worldtrip/czech/cz2px6.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://tbn0.google.com/images?q=tbn:CHejXn3ovvVrNM:http://www.hobotraveler.com/uploaded_images/207-40-snow-in-togo-705142.jpg
+    Domain : google.com
+
+  [2007-07-12T17:45:24Z]
+    URL    : http://images.google.com/favicon.ico
+    Domain : google.com
+
+  [2007-07-12T17:45:34Z]
+    URL    : http://www.google.com/search?hl=en&q=atm+card+stealing&btnG=Google+Search
+    Domain : google.com
+
+  [2007-07-12T17:45:34Z]
+    URL    : http://www.google.com/search?hl=en&q=atm+card+stealing&btnG=Google+Search
+    Domain : google.com
+
+  [2007-07-12T17:45:34Z]
+    URL    : http://www.google.com/search?hl=en&q=atm+card+stealing&btnG=Google+Search
+    Domain : google.com
+
+  [2007-07-12T17:45:52Z]
+    URL    : http://www.neonjoint.com/drug_recipes/chapter3.html
+    Domain : neonjoint.com
+
+  [2007-07-12T17:45:52Z]
+    URL    : www.neonjoint.com
+    Domain : neonjoint.com
+
+  [2007-07-12T17:45:52Z]
+    URL    : http://www.neonjoint.com/drug_recipes/chapter3.html
+    Domain : neonjoint.com
+
+  [2007-07-12T17:45:52Z]
+    URL    : http://www.herbalsmokeshops.com/images/herbs1-hawaiian-ruler.jpg
+    Domain : herbalsmokeshops.com
+
+  [2007-07-12T17:45:52Z]
+    URL    : http://www.neonjoint.com/drug_recipes/chapter3.html
+    Domain : neonjoint.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0cm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3ct.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3rm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3lt.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/styles/totse3.css
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/js/linkage.js
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/bg.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/1lm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/logos/totse02.gif
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0lb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/bullets/hot_topic_bullet.gif
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/1lt.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3lm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/secure/secure2.gif
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0.gif
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0lm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0cb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0lt.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3rt.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0rm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/bullets/topic_bullet.gif
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/1ct.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/1lb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/banners/t_shirt_hell_11.gif
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3cm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/en/drugs/speedy_drugs/howtomanufactu172921.html
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/1cb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/1cm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/0ct.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:03Z]
+    URL    : http://www.totse.com/images/t3/3lb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/en/drugs/speedy_drugs/howtomanufactu172921.html
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/totse.rss
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : www.totse.com
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/en/drugs/speedy_drugs/howtomanufactu172921.html
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/t3/1rt.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/t3/3cb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/favicon.ico
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/minibanners/famm1.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/t3/1rb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/minibanners/tshirthell_shirt_81.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/t3/3rb.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:04Z]
+    URL    : http://www.totse.com/images/t3/1rm.jpg
+    Domain : totse.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/news99637614.html
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/style.css
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/bd-grade-1.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symb-dig1.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/adsense_custom_ad_unit.js
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-plus.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/tab-2-b.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/tab-2-a.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-blog.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/stumbleit.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symb-sld1.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/dhtml/dhtml_news.js
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-print.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/tab-1-b.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-letters.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-minus.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/show_ads.js
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/style-print.css
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/logo-content.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/rank1.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-email.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symbol-pdf.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/symb-deli1.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/menubar.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:19Z]
+    URL    : http://www.physorg.com/img/tab-1-a.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-2-top.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://affiliates.globalspec.com/pix/affiliate/engineeringweb_drop.gif
+    Domain : globalspec.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-8-top.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-10-border.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/button-quicksearch.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-freemag.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-10-tab-b.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-search.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://affiliates.globalspec.com/pix/affiliate/SearchBoxGo.gif
+    Domain : globalspec.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-newsletter.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.myaffiliateprogram.com/1pxlclr.gif
+    Domain : myaffiliateprogram.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/votingbox-bg.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-movie.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-archive.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-suggest.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/dhtml/navtabs.php
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-10-bottom.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-feedback.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/boxbutton-a.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-forum.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/symbol-editorial.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-0536483524803400&dt=1184282179875&lmt=1184282179&num_ads=3&output=js&correlator=1184282179713&channel=0559369967%2B2877615779&url=http%3A%2F%2Fwww.physorg.com%2Fnews99637614.html&ad_type=text&feedback_link=on&ref=http%3A%2F%2Fwww.google.com%2Fsearch%3Fhl%3Den%26q%3Dmaking%2Bmeth&cc=108&flash=9&u_h=1024&u_w=1280&u_ah=994&u_aw=1280&u_cd=32&u_tz=-360&u_his=3&u_java=true
+    Domain : googlesyndication.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-2-bottom.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-10-tab-a.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://www.physorg.com/img/box-2-border.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:20Z]
+    URL    : http://tags.expo9.exponential.com/tags/PhysOrgcom/ROS/tags.js
+    Domain : exponential.com
+
+  [2007-07-12T17:46:21Z]
+    URL    : http://www.physorg.com/images/logofooter.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:21Z]
+    URL    : http://physorg.us.intellitxt.com/v3/door.jsp?ts=1184282181179&pagecl=3051&ias=c3e698ae4d4146ce8a687e3113006968&ipid=7576&refurl=http://www.physorg.com/news99637614.html
+    Domain : intellitxt.com
+
+  [2007-07-12T17:46:21Z]
+    URL    : http://www.physorg.com/img/footer.gif
+    Domain : physorg.com
+
+  [2007-07-12T17:46:21Z]
+    URL    : http://a.tribalfusion.com/jr.ad?site=physorgcom&adSpace=ros&size=120x600&p=2124615&a=1&flashVer=9&ver=1.12&center=1&noAd=1&addBlockingCategories=Adult|Alcohol|Dating|Gambling|Sweepstakes|Tobacco|Violence|Flashing|Warning|Audio|Pop-under|Pop-up|Floating|Full-page|Expandable&url=http%3A%2F%2Fwww.physorg.com%2Fnews99637614.html&rurl=http%3A%2F%2Fwww.google.com%2Fsearch%3Fhl%3Den%26q%3Dmaking%2Bmeth&rnd=2126551
+    Domain : tribalfusion.com
+
+  [2007-07-12T17:46:21Z]
+    URL    : http://physorg.us.intellitxt.com/intellitxt/front.asp?ipid=7576
+    Domain : intellitxt.com
+
+  [2007-07-12T17:46:22Z]
+    URL    : http://www.physorg.com/physorg.rss
+    Domain : physorg.com
+
+  [2007-07-12T17:46:22Z]
+    URL    : http://rmd.atdmt.com/tl/DocumentDotWrite.js
+    Domain : atdmt.com
+
+  [2007-07-12T17:46:23Z]
+    URL    : http://www.physorg.com/news99637614.html
+    Domain : physorg.com
+
+  [2007-07-12T17:46:23Z]
+    URL    : http://www.physorg.com/news99637614.html
+    Domain : physorg.com
+
+  [2007-07-12T17:46:23Z]
+    URL    : http://www.physorg.com/favicon.ico
+    Domain : physorg.com
+
+  [2007-07-12T17:46:23Z]
+    URL    : http://spe.atdmt.com/ds/M5NMKQWESQM2/q207_HSI_relaunch/qw9692_mmc_3pb_relaunch_2699_120x600_30k.swf?ver=1&clickTag1=http://a.tribalfusion.com/h.click/a5mNJHVWFhXrU6Xrj70EqNRbQHTrvSVtn4obZbxQFByYT3y4TFh4qn1mEMCYUBdWtjXnAvZamcntodYC5EFk5tZaN5PnIprMEXGQYXsFTXsvupE743F3QWrJHUAn3Rqj0SVYOQtUM1HrmV6nM4cJWXFZabmbjXvrMDtrEFwaQEQK5yTV/http://clk.atdmt.com/go/trblfqm20260000185nmk/direct;wi.120;hi.600;ai.28207338;ct.1/01&clickTag=http://a.tribalfusion.com/h.click/a5mNJHVWFhXrU6Xrj70EqNRbQHTrvSVtn4obZbxQFByYT3y4TFh4qn1mEMCYUBdWtjXnAvZamcntodYC5EFk5tZaN5PnIprMEXGQYXsFTXsvupE743F3QWrJHUAn3Rqj0SVYOQtUM1HrmV6nM4cJWXFZabmbjXvrMDtrEFwaQEQK5yTV/http://clk.atdmt.com/go/trblfqm20260000185nmk/direct;wi.120;hi.600;ai.28207338;ct.1/01
+    Domain : atdmt.com
+
+  [2007-07-12T17:46:32Z]
+    URL    : http://www.google.com/search?hl=en&q=making+meth
+    Domain : google.com
+
+  [2007-07-12T17:46:33Z]
+    URL    : http://www.google.com/search?hl=en&q=making+meth
+    Domain : google.com
+
+  [2007-07-12T17:46:33Z]
+    URL    : http://www.google.com/images/nav_logo3.png
+    Domain : google.com
+
+  [2007-07-12T17:47:02Z]
+    URL    : http://www.sccja.org/images/csid_meth1.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:02Z]
+    URL    : www.sccja.org
+    Domain : sccja.org
+
+  [2007-07-12T17:47:02Z]
+    URL    : http://www.sccja.org/images/csid_meth1.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/csid%20pharm2.htm
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/images/csid_meth1_small.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/images/csid-valium.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/images/csid%20amphetamine.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://images.google.com/imgres?imgurl=http://www.sccja.org/images/csid_meth1.jpg&imgrefurl=http://www.sccja.org/csid%2520pharm2.htm&h=480&w=640&sz=39&hl=en&start=19&um=1&tbnid=kGS6RO7o8hE12M:&tbnh=103&tbnw=137&prev=/images%3Fq%3Dmaking%2Bmeth%26start%3D18%26ndsp%3D18%26svnum%3D10%26um%3D1%26hl%3Den%26sa%3DN
+    Domain : google.com
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/images/csid%20barbiturates.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/images/csid-methhand.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://images.google.com/imgres?imgurl=http://www.sccja.org/images/csid_meth1.jpg&imgrefurl=http://www.sccja.org/csid%2520pharm2.htm&h=480&w=640&sz=39&tbnid=kGS6RO7o8hE12M:&tbnh=103&tbnw=137&hl=en&um=1&prev=/images%3Fq%3Dmaking%2Bmeth%26start%3D18%26ndsp%3D18%26svnum%3D10%26um%3D1%26hl%3Den%26sa%3DN&frame=small
+    Domain : google.com
+
+  [2007-07-12T17:47:05Z]
+    URL    : http://www.sccja.org/images/csid%20pharm.gif
+    Domain : sccja.org
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://images.google.com/images?q=making+meth&svnum=10&um=1&hl=en&start=18&sa=N&ndsp=18
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http//www.sccja.org/images/csid_meth1.jpg&imgrefurl=http&tbnh=103&tbnw=137&prev=/images%3Fq%3Dmaking%2Bmeth%26start%3D18%26ndsp%3D18%26svnum%3D10%26um%3D1%26hl%3Den%26sa%3DN
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://images.google.com/images?q=making+meth&svnum=10&um=1&hl=en&start=18&sa=N&ndsp=18
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://images.google.com/images?q=making+meth&svnum=10&um=1&hl=en&start=18&sa=N&ndsp=18
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http//www.sccja.org/images/csid_meth1.jpg&imgrefurl=http&tbnh=103&tbnw=137&prev=/images%3Fq%3Dmaking%2Bmeth%26start%3D18%26ndsp%3D18%26svnum%3D10%26um%3D1%26hl%3Den%26sa%3DN
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://www.sccja.org/images/csid_cocainepara_small.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:pr679sVRaAWzHM:http://www.hq.usace.army.mil/cepa/pubs/mar02/meth2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:dgh5Av6QmvloYM:http://spookymeat.com/pics/faceoff.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:DTkEq9o5sA1gpM:http://www.spokesmanreview.com/library/meth/a811177.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:YCq78eNjslyJ5M:http://a.abclocal.go.com/images/wabc/cms_exf_2005/news/methbust113006-1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:mgNKBVsxC7iDjM:http://www.casting-source.com/diecast_meth2.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:sJcddyNuyQlEhM:http://www.lcsdmo.com/special_units/net/press_release/images/sert.JPG
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:kGS6RO7o8hE12M:http://www.sccja.org/images/csid_meth1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:zfevW2hOd_h-GM:http://img.slate.com/media/1/123125/123019/2133636/2144993/060731_PB_MethDatabase.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:CLJY7K1nyHQ2TM:http://www.sheriff.co.stark.oh.us/images/xbones.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://www.sccja.org/images/csid%20meth%20small.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://images.google.com/images?q=making+meth&svnum=10&um=1&hl=en&start=18&sa=N&ndsp=18
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://www.sccja.org/images/csid_crackpara_small.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:SKvqql7JPuvBIM:http://garfieldridge.typepad.com/photos/uncategorized/meth_muppet.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:36iRAAtCPkd4rM:http://wc.arizona.edu/papers/98/247/01_3_1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:RQ__1KXFjd-RwM:http://msnbcmedia3.msn.com/j/msnbc/864000/864036.300w.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:1jpgKiEadkHiSM:http://www.engineeringmyowndoom.com/images/meth-thumb.jpe
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:Ldce4u4LAozcsM:http://www.courier-journal.com/cjextra/2003projects/justice/day4/kenney2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:9KJFtFpRxHwsOM:http://media.collegepublisher.com/media/paper981/stills/85adk55t.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://www.sccja.org/images/meth_lab_small.jpg
+    Domain : sccja.org
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:BwYhLQECmxW_PM:http://www.tomgpalmer.com/images/METH-LAB-PHOTO.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:WfpwGlsUc5ECZM:http://static.flickr.com/112/312378490_34586d7466.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:06Z]
+    URL    : http://tbn0.google.com/images?q=tbn:FUwlLpqpboHHSM:http://www.cbc.ca/gfx/pix/pseudoephedrine051229.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://images.google.com/images?um=1&tab=wi&hl=en&q=making%20meth
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:T4KsttpyKDYScM:http://www.saanichpolice.ca/crimewatch/media/images/meth_chemicals.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:RfJgUs08rDFHrM:http://www.artdiamondblog.com/images/SudafedColdCcough.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:_WNYlrkO8-TsHM:http://www.engineeringmyowndoom.com/images/meth.jpe
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:vddIYfmUgcCO4M:http://www.ada.org/prof/resources/pubs/adanews/images/050818_closeup02.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:wpYRrMZ8jwqZTM:http://www.sequoyahcountysheriff.org/meth%2520ingredients%2520poster.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:49YcHvkliEuNpM:http://www.paysonroundup.com/art/apps/pennynews/1110675325_031105powerdayic.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:Q2EGmBp_DL5QOM:http://www.carthagetexas.com/panolacounty/district_attorney/Meth1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:hevpga6auex4HM:http://www.miamitwp.org/police/graphics/meth_lab_2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:S6klKBPfpkPYHM:http://www.iir.com/centf/images/Meth_Crystal.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:3TZmvF3dKCHNdM:http://www.breadonthewaters.com/add/0784_meth_making_equipment_clipart.JPG
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://images.google.com/images?um=1&tab=wi&hl=en&q=making%20meth
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:cQ3RuY_fX3VzHM:http://www.news-leader.com/springfield/specialreports/meth/20050122-Breakingmethsho_1.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:V67nz5NruFuYUM:http://www.deseretnews.com/photos/2026229.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:JzvLs5x_X1MspM:http://www.fims.uwo.ca/newmedia2006/images/public/9%2520Meth%2520Assets/MethArticleImages/DeglovedHand.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:U8fLlZIO-B_xQM:http://blogs.usatoday.com/photos/uncategorized/odmeth.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:iDQJkSn6MkuZFM:http://www.courier-journal.com/localnews/2004/12/26ky/12-26-2004_K3_DAY_1226MethBirkes2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:dZUve1yQWMNdvM:http://www.co.washington.or.us/cgi/neighbor/graphics/methstuf.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:-vA0MbjufDoJFM:http://www.fims.uwo.ca/newmedia2006/images/public/9%2520Meth%2520Assets/MethArticleImages/MethIngredients.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:08Z]
+    URL    : http://tbn0.google.com/images?q=tbn:PoDKSh822TExzM:http://www.fraqmd.org/images/meth_chemicals.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:28Z]
+    URL    : http://images.google.com/images?q=check+washing&ndsp=18&svnum=10&um=1&hl=en&start=36&sa=N
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:ne5CFdXEotmr5M:http://www.crowcanyon.org/EducationProducts/peoples_mesa_verde/images/checkdam.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:0Mz3Gmk-l_LaGM:http://www.applianceblog.com/archives/Chopper.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:_PYkvhKKcaG4YM:http://www1.cncm.ne.jp/~yamaguti/W650/Oil%2520Seal%2520Check.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:UzIkFzbPQh4A9M:http://farm1.static.flickr.com/221/458560991_220798b7c3.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:kXT8WmQIH8cV4M:http://www.ocfp.com/Photos/Decking/check_hr.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:1oIojhvd32U5tM:http://homelessdave.com/images/laundrypanaroma.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:TB-ze9RHoFOIcM:http://www.learningtreasures.com/suite101/maytag_ws.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:26lKAz-FAwmuJM:http://www.supercheck.net/graphics/FTRwash.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:uhQ75Lov_7fHaM:http://static.flickr.com/32/50267175_c2a996956e.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:ZKNyvZZXzZFO2M:http://sourcing.tdctrade.com/hkei/productlibrary/fullImages/845457-00003.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:wLdbyKrMbkFc8M:http://www.go-for-it.co.uk/Davenports/How%2520it%2520was%2520Made/PulpWashingRoom.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:V94ubwYIvQzBtM:http://images.amazon.com/images/P/B000DN7CD2.01._SCLZZZZZZZ_.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:ZsbrAS2W4mhBOM:http://www.coloradobiodiesel.com/images/wash4.JPG
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:uW61Chb-ocC4WM:http://www.dunnsgreen.fsnet.co.uk/graphics/riversideback.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:PNgXWB0aLAwZlM:http://www.cornishwaresearch.freeservers.com/images/WashingSoda.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:J1GMJAPDhPcvQM:http://www.theelectricdiscounter.com.au/asps/whites/washer/Simpson/36S605M/36S605M2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:29Z]
+    URL    : http://tbn0.google.com/images?q=tbn:Fd9VDMEL6TBr6M:http://www.inspirationblog.nl/photos/uncategorized/washyourhands.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:30Z]
+    URL    : http://images.google.com/images?q=check+washing&ndsp=18&svnum=10&um=1&hl=en&start=36&sa=N
+    Domain : google.com
+
+  [2007-07-12T17:47:30Z]
+    URL    : http://images.google.com/images?q=check+washing&ndsp=18&svnum=10&um=1&hl=en&start=36&sa=N
+    Domain : google.com
+
+  [2007-07-12T17:47:30Z]
+    URL    : http://tbn0.google.com/images?q=tbn:QrEbUGEjCZ0yXM:http://www.kathyandkaren.com/custom/washing%2520hands%2520with%2520tulips%2520get%2520clean%2520logo.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://images.google.com/images?q=check+washing&svnum=10&um=1&hl=en&start=18&sa=N&ndsp=18
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:CPptg_eyWPXJPM:http://www.hot-screensaver.com/wp-myimages/car-wash.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:YJy8XgnaV3yBZM:http://secure.checksinthemail.com/images/pens-sm.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:G5PA7aMjgyr4dM:http://www.lanfaxlabs.com.au/images/washingFL-C2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:gec2bDrtzzdBUM:http://www.spiritburner.com/fettling/8r_ian/8r_firststeps_needleup.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:78pM8vejSdoeQM:http://viewfinder.english-heritage.org.uk/gallery/450/aa0/aa030980.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:BWSDF6V1B5knnM:http://www.terrylove.com/images/washer_rough_b.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:Rihi_wdCy97rSM:http://img.shopping.com/cctool/PrdImg/images/pr/100X100/00/02/32/9e/c5/36871877.JPG
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:JlW3zxIgZrvmAM:http://www.historyofthebutton.com/blog/wp-content/uploads/2007/01/lg_washer.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:F7pWoQM7SMYJ5M:http://www.applianceaid.com/newpics/which_washer.JPG
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:DzBAmd5eYWfzkM:http://www.laundry-and-dishwasher-info.com/images/Wash-Care-Labels.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:FLsNOdmuuGF7TM:http://www.madisonavenuejournal.com/images/window%2520washer%25201.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:ziqf1LQX1LIyWM:http://www.ethicurean.com/wp-content/uploads/2006/10/washing.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:XX1Z2ayLJsWN6M:http://www.madisonavenuejournal.com/images/window%2520washer%25201-thumb.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:hMl0gwqre6WCRM:http://assets.consolidus.com/globalAssets/Products/Thumbnails/1915.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:bsbccGStXlOLSM:http://farm1.static.flickr.com/126/365627336_13cc5dc842.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:IWjNsM1wZUBH6M:http://static.howstuffworks.com/gif/how-to-repair-a-washing-machine-2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:MdJEEWJ1DmEa1M:http://blog.eogn.com/eastmans_online_genealogy/BlankCheck_small.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://tbn0.google.com/images?q=tbn:jxHSHHhUzj3oZM:http://www.theelectricdiscounter.com.au/asps/whites/washer/Simpson/22S800L/22S800L2.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:35Z]
+    URL    : http://images.google.com/images?q=check+washing&svnum=10&um=1&hl=en&start=18&sa=N&ndsp=18
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://images.google.com/images?svnum=10&um=1&hl=en&q=check+washing&btnG=Search+Images
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://images.google.com/images?svnum=10&um=1&hl=en&q=check+washing&btnG=Search+Images
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:fUJGae2pXV-I3M:http://www.handwritingservices.biz/images/pen.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:ErKRRRCbaFz4MM:http://www.groupecat.com/_img/quality-management.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:O2ADI1TywbSuBM:http://www.checksnforms.com/images/03_products_00_lasersecure/LS_08_detectfield_tn.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:7vOPRaNaVbyUUM:http://www.ci.blaine.mn.us/_InsideCityHall/_NewsAndFeatures/_2007/_01/CheckWashing_Graphic.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:S-jstSrcR0jJyM:http://www.crime-research.org/media/icons/etc/eye.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://images.google.com/images?svnum=10&um=1&hl=en&q=check+washing&btnG=Search+Images
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:oq_03XLWClYt8M:http://www.mbgrafix.com/images/Check%2520Washing%2520Awareness_jpg.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:xULdN23vJdxTRM:http://www.shomer-tec.com/images/site_images/cgp_sm.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:oQdLbAHjc-qbYM:http://www.coventrycu.org/images/pic_referfriend.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:L9lkwgHQg6TKbM:http://celtickane.com/projects/washing/c517b.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:1IMb11dMBD6fJM:http://outhouserag.typepad.com/photos/uncategorized/jessicasimpson.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:9PwM4nTEpxMoyM:http://www.messageproducts.com/message_assets/images/product/2084S_c.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:Ida9XzCqzAZjJM:http://www.coventrycu.org/images/pic_checkfraud.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:nDiagsJyHiPZ6M:http://www.uncrate.com/men/images/shure-e4c-t.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:SyXb_tu1Wj0SUM:http://blog.eogn.com/eastmans_online_genealogy/BlankCheck.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:zqmFsnkj0xriIM:http://celtickane.com/projects/washing/c508b.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:aNnoUmKvn0h-bM:http://www.newyorkfed.org/banking/fraudscams/blackmoney3.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:36Z]
+    URL    : http://tbn0.google.com/images?q=tbn:EccDLJGeB7GHxM:http://www.pbsoffice.com/images/Paymaster9000.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:39Z]
+    URL    : http://images.google.com/imgres?imgurl=http://img376.imageshack.us/img376/8880/washingislame3hu.jpg&imgrefurl=http://digg.com/security/Check_Washing&h=531&w=490&sz=215&hl=en&start=2&um=1&tbnid=fEwemo6sD6bg3M:&tbnh=132&tbnw=122&prev=/images%3Fq%3Dcheck%2Bwashing%26svnum%3D10%26um%3D1%26hl%3Den%26sa%3DG
+    Domain : google.com
+
+  [2007-07-12T17:47:40Z]
+    URL    : http://images.google.com/images/nav_logo3.png
+    Domain : google.com
+
+  [2007-07-12T17:47:40Z]
+    URL    : http://tbn0.google.com/images?q=tbn:fEwemo6sD6bg3M:http://img376.imageshack.us/img376/8880/washingislame3hu.jpg
+    Domain : google.com
+
+  [2007-07-12T17:47:40Z]
+    URL    : http://images.google.com/imgres?imgurl=http://img376.imageshack.us/img376/8880/washingislame3hu.jpg&imgrefurl=http://digg.com/security/Check_Washing&h=531&w=490&sz=215&tbnid=fEwemo6sD6bg3M:&tbnh=132&tbnw=122&hl=en&um=1&prev=/images%3Fq%3Dcheck%2Bwashing%26svnum%3D10%26um%3D1%26hl%3Den%26sa%3DG&frame=small
+    Domain : google.com
+
+  [2007-07-12T17:47:40Z]
+    URL    : http://images.google.com/images/frame_remove.gif
+    Domain : google.com
+
+  [2007-07-12T17:47:44Z]
+    URL    : http://img376.imageshack.us/img376/8880/washingislame3hu.jpg
+    Domain : imageshack.us
+
+  [2007-07-12T17:47:44Z]
+    URL    : img376.imageshack.us
+    Domain : imageshack.us
+
+  [2007-07-12T17:47:44Z]
+    URL    : http://img376.imageshack.us/img376/8880/washingislame3hu.jpg
+    Domain : imageshack.us
+
+  [2007-07-12T17:47:44Z]
+    URL    : http://img376.imageshack.us/favicon.ico
+    Domain : imageshack.us
+
+  [2007-07-12T17:47:44Z]
+    URL    : http://img376.imageshack.us/img376/8880/washingislame3hu.jpg
+    Domain : imageshack.us
+
+
+============================================================
+WEB SEARCHES (130 records)
+============================================================
+
+  [2007-07-12T17:45:23Z] tbn:nZOxJlpUp4XSZM:http://www.utexas.edu/police/alerts/atm_scam/atm1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:49wXfiIFVAmBrM:http://www.ou.edu/oupd/idtheft-clown4.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:5-KcSCftkfXOsM:http://farm1.static.flickr.com/142/329572110_802dcdd12a.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:lHnwR5xCJlrdJM:http://www.ministryoftech.com/images/hacked-atm.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:LGtYug1HFUtv3M:http://forum2.breakthechain.org/uploads/atm4.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:kzgGjKrakDCsXM:http://www.crimesceneblog.com/images/ca_rapist/video01.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:LiWLsR3P6YRS3M:http://www.utexas.edu/police/alerts/atm_scam/atm4.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:_a_eX1iNQc85sM:http://farm1.static.flickr.com/142/329572110_802dcdd12a_o.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:rOKDXUVAgufrGM:http://z.about.com/d/urbanlegends/1/0/Q/B/atm001_sm.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:6Vi5Ho2kXz2B3M:http://www.diebold.com/atmsecurity/images/atm_trapping.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:9lA0tzHuYZ-RlM:http://www.epica-awards.org/assets/epica/2006/winners/print/images/27-01109-POS%20%20%20Jobsintown0%20%20%20x063.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:74aovRmz0xeOnM:http://z.about.com/d/urbanlegends/1/0/R/B/atm002_sm.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] tbn:BCfYd-Bgp42YvM:http://forum2.breakthechain.org/uploads/atm1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:23Z] atm card stealing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] atm card stealing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] atm card stealing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] tbn:E1G_U54dgvmz5M:http://blogs.kansascity.com/photos/uncategorized/suspects_in_attempted_rape.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] tbn:wrAqtImCJ4VFAM:http://www.hoax-slayer.com/images/atm2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] tbn:KUL4onKpTT_tdM:http://spartacus.blogs.com/spartacus/spartacus/2006/02/12_1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] tbn:EZv6f2xLnEAY7M:http://www.ericandjoan.com/worldtrip/czech/cz2px6.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:24Z] tbn:CHejXn3ovvVrNM:http://www.hobotraveler.com/uploaded_images/207-40-snow-in-togo-705142.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:34Z] atm card stealing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:34Z] atm card stealing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:45:34Z] atm card stealing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:46:32Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:46:33Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:pr679sVRaAWzHM:http://www.hq.usace.army.mil/cepa/pubs/mar02/meth2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:dgh5Av6QmvloYM:http://spookymeat.com/pics/faceoff.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:DTkEq9o5sA1gpM:http://www.spokesmanreview.com/library/meth/a811177.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:YCq78eNjslyJ5M:http://a.abclocal.go.com/images/wabc/cms_exf_2005/news/methbust113006-1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:mgNKBVsxC7iDjM:http://www.casting-source.com/diecast_meth2.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:sJcddyNuyQlEhM:http://www.lcsdmo.com/special_units/net/press_release/images/sert.JPG
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:kGS6RO7o8hE12M:http://www.sccja.org/images/csid_meth1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:zfevW2hOd_h-GM:http://img.slate.com/media/1/123125/123019/2133636/2144993/060731_PB_MethDatabase.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:CLJY7K1nyHQ2TM:http://www.sheriff.co.stark.oh.us/images/xbones.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:SKvqql7JPuvBIM:http://garfieldridge.typepad.com/photos/uncategorized/meth_muppet.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:36iRAAtCPkd4rM:http://wc.arizona.edu/papers/98/247/01_3_1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:RQ__1KXFjd-RwM:http://msnbcmedia3.msn.com/j/msnbc/864000/864036.300w.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:1jpgKiEadkHiSM:http://www.engineeringmyowndoom.com/images/meth-thumb.jpe
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:Ldce4u4LAozcsM:http://www.courier-journal.com/cjextra/2003projects/justice/day4/kenney2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:9KJFtFpRxHwsOM:http://media.collegepublisher.com/media/paper981/stills/85adk55t.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:BwYhLQECmxW_PM:http://www.tomgpalmer.com/images/METH-LAB-PHOTO.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:WfpwGlsUc5ECZM:http://static.flickr.com/112/312378490_34586d7466.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:06Z] tbn:FUwlLpqpboHHSM:http://www.cbc.ca/gfx/pix/pseudoephedrine051229.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:T4KsttpyKDYScM:http://www.saanichpolice.ca/crimewatch/media/images/meth_chemicals.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:RfJgUs08rDFHrM:http://www.artdiamondblog.com/images/SudafedColdCcough.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:_WNYlrkO8-TsHM:http://www.engineeringmyowndoom.com/images/meth.jpe
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:vddIYfmUgcCO4M:http://www.ada.org/prof/resources/pubs/adanews/images/050818_closeup02.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:wpYRrMZ8jwqZTM:http://www.sequoyahcountysheriff.org/meth%20ingredients%20poster.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:49YcHvkliEuNpM:http://www.paysonroundup.com/art/apps/pennynews/1110675325_031105powerdayic.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:Q2EGmBp_DL5QOM:http://www.carthagetexas.com/panolacounty/district_attorney/Meth1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:hevpga6auex4HM:http://www.miamitwp.org/police/graphics/meth_lab_2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:S6klKBPfpkPYHM:http://www.iir.com/centf/images/Meth_Crystal.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:3TZmvF3dKCHNdM:http://www.breadonthewaters.com/add/0784_meth_making_equipment_clipart.JPG
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] making meth
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:cQ3RuY_fX3VzHM:http://www.news-leader.com/springfield/specialreports/meth/20050122-Breakingmethsho_1.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:V67nz5NruFuYUM:http://www.deseretnews.com/photos/2026229.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:JzvLs5x_X1MspM:http://www.fims.uwo.ca/newmedia2006/images/public/9%20Meth%20Assets/MethArticleImages/DeglovedHand.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:U8fLlZIO-B_xQM:http://blogs.usatoday.com/photos/uncategorized/odmeth.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:iDQJkSn6MkuZFM:http://www.courier-journal.com/localnews/2004/12/26ky/12-26-2004_K3_DAY_1226MethBirkes2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:dZUve1yQWMNdvM:http://www.co.washington.or.us/cgi/neighbor/graphics/methstuf.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:-vA0MbjufDoJFM:http://www.fims.uwo.ca/newmedia2006/images/public/9%20Meth%20Assets/MethArticleImages/MethIngredients.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:08Z] tbn:PoDKSh822TExzM:http://www.fraqmd.org/images/meth_chemicals.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:28Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:ne5CFdXEotmr5M:http://www.crowcanyon.org/EducationProducts/peoples_mesa_verde/images/checkdam.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:0Mz3Gmk-l_LaGM:http://www.applianceblog.com/archives/Chopper.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:_PYkvhKKcaG4YM:http://www1.cncm.ne.jp/~yamaguti/W650/Oil%20Seal%20Check.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:UzIkFzbPQh4A9M:http://farm1.static.flickr.com/221/458560991_220798b7c3.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:kXT8WmQIH8cV4M:http://www.ocfp.com/Photos/Decking/check_hr.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:1oIojhvd32U5tM:http://homelessdave.com/images/laundrypanaroma.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:TB-ze9RHoFOIcM:http://www.learningtreasures.com/suite101/maytag_ws.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:26lKAz-FAwmuJM:http://www.supercheck.net/graphics/FTRwash.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:uhQ75Lov_7fHaM:http://static.flickr.com/32/50267175_c2a996956e.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:ZKNyvZZXzZFO2M:http://sourcing.tdctrade.com/hkei/productlibrary/fullImages/845457-00003.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:wLdbyKrMbkFc8M:http://www.go-for-it.co.uk/Davenports/How%20it%20was%20Made/PulpWashingRoom.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:V94ubwYIvQzBtM:http://images.amazon.com/images/P/B000DN7CD2.01._SCLZZZZZZZ_.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:ZsbrAS2W4mhBOM:http://www.coloradobiodiesel.com/images/wash4.JPG
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:uW61Chb-ocC4WM:http://www.dunnsgreen.fsnet.co.uk/graphics/riversideback.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:PNgXWB0aLAwZlM:http://www.cornishwaresearch.freeservers.com/images/WashingSoda.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:J1GMJAPDhPcvQM:http://www.theelectricdiscounter.com.au/asps/whites/washer/Simpson/36S605M/36S605M2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:29Z] tbn:Fd9VDMEL6TBr6M:http://www.inspirationblog.nl/photos/uncategorized/washyourhands.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:30Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:30Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:30Z] tbn:QrEbUGEjCZ0yXM:http://www.kathyandkaren.com/custom/washing%20hands%20with%20tulips%20get%20clean%20logo.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:CPptg_eyWPXJPM:http://www.hot-screensaver.com/wp-myimages/car-wash.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:YJy8XgnaV3yBZM:http://secure.checksinthemail.com/images/pens-sm.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:G5PA7aMjgyr4dM:http://www.lanfaxlabs.com.au/images/washingFL-C2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:gec2bDrtzzdBUM:http://www.spiritburner.com/fettling/8r_ian/8r_firststeps_needleup.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:78pM8vejSdoeQM:http://viewfinder.english-heritage.org.uk/gallery/450/aa0/aa030980.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:BWSDF6V1B5knnM:http://www.terrylove.com/images/washer_rough_b.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:Rihi_wdCy97rSM:http://img.shopping.com/cctool/PrdImg/images/pr/100X100/00/02/32/9e/c5/36871877.JPG
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:JlW3zxIgZrvmAM:http://www.historyofthebutton.com/blog/wp-content/uploads/2007/01/lg_washer.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:F7pWoQM7SMYJ5M:http://www.applianceaid.com/newpics/which_washer.JPG
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:DzBAmd5eYWfzkM:http://www.laundry-and-dishwasher-info.com/images/Wash-Care-Labels.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:FLsNOdmuuGF7TM:http://www.madisonavenuejournal.com/images/window%20washer%201.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:ziqf1LQX1LIyWM:http://www.ethicurean.com/wp-content/uploads/2006/10/washing.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:XX1Z2ayLJsWN6M:http://www.madisonavenuejournal.com/images/window%20washer%201-thumb.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:hMl0gwqre6WCRM:http://assets.consolidus.com/globalAssets/Products/Thumbnails/1915.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:bsbccGStXlOLSM:http://farm1.static.flickr.com/126/365627336_13cc5dc842.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:IWjNsM1wZUBH6M:http://static.howstuffworks.com/gif/how-to-repair-a-washing-machine-2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:MdJEEWJ1DmEa1M:http://blog.eogn.com/eastmans_online_genealogy/BlankCheck_small.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] tbn:jxHSHHhUzj3oZM:http://www.theelectricdiscounter.com.au/asps/whites/washer/Simpson/22S800L/22S800L2.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:35Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:fUJGae2pXV-I3M:http://www.handwritingservices.biz/images/pen.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:ErKRRRCbaFz4MM:http://www.groupecat.com/_img/quality-management.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:O2ADI1TywbSuBM:http://www.checksnforms.com/images/03_products_00_lasersecure/LS_08_detectfield_tn.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:7vOPRaNaVbyUUM:http://www.ci.blaine.mn.us/_InsideCityHall/_NewsAndFeatures/_2007/_01/CheckWashing_Graphic.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:S-jstSrcR0jJyM:http://www.crime-research.org/media/icons/etc/eye.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] check washing
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:oq_03XLWClYt8M:http://www.mbgrafix.com/images/Check%20Washing%20Awareness_jpg.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:xULdN23vJdxTRM:http://www.shomer-tec.com/images/site_images/cgp_sm.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:oQdLbAHjc-qbYM:http://www.coventrycu.org/images/pic_referfriend.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:L9lkwgHQg6TKbM:http://celtickane.com/projects/washing/c517b.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:1IMb11dMBD6fJM:http://outhouserag.typepad.com/photos/uncategorized/jessicasimpson.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:9PwM4nTEpxMoyM:http://www.messageproducts.com/message_assets/images/product/2084S_c.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:Ida9XzCqzAZjJM:http://www.coventrycu.org/images/pic_checkfraud.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:nDiagsJyHiPZ6M:http://www.uncrate.com/men/images/shure-e4c-t.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:SyXb_tu1Wj0SUM:http://blog.eogn.com/eastmans_online_genealogy/BlankCheck.gif
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:zqmFsnkj0xriIM:http://celtickane.com/projects/washing/c508b.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:aNnoUmKvn0h-bM:http://www.newyorkfed.org/banking/fraudscams/blackmoney3.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:36Z] tbn:EccDLJGeB7GHxM:http://www.pbsoffice.com/images/Paymaster9000.jpg
+    via: Internet Explorer Analyzer
+
+  [2007-07-12T17:47:40Z] tbn:fEwemo6sD6bg3M:http://img376.imageshack.us/img376/8880/washingislame3hu.jpg
+    via: Internet Explorer Analyzer
+
+
+============================================================
+USB DEVICES (30 records)
+============================================================
+
+  [2007-07-14T17:56:41Z]
+    Device : 4&130ba76c&0
+    Serial : 4&130ba76c&0
+
+  [2007-07-14T17:56:41Z]
+    Device : 4&21bc7733&0
+    Serial : 4&21bc7733&0
+
+  [2007-07-14T17:56:41Z]
+    Device : 4&382682fb&0
+    Serial : 4&382682fb&0
+
+  [2007-07-14T17:56:41Z]
+    Device : 4&512f9b2&0
+    Serial : 4&512f9b2&0
+
+  [2007-07-14T17:56:41Z]
+    Device : 4&10a7b694&0
+    Serial : 4&10a7b694&0
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&1ec84238&0&2
+    Serial : 5&1ec84238&0&2
+
+  [2007-07-14T17:56:41Z]
+    Device : 6&ac461f8&0&4
+    Serial : 6&ac461f8&0&4
+
+  [2007-07-14T17:56:41Z]
+    Device : 0000000000C80F
+    Serial : 0000000000C80F
+
+  [2007-07-14T17:56:41Z]
+    Device : 0000000000C9BA
+    Serial : 0000000000C9BA
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&40df8c9&0&1
+    Serial : 5&40df8c9&0&1
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&40df8c9&0&2
+    Serial : 5&40df8c9&0&2
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&dc2e3f8&0&1
+    Serial : 5&dc2e3f8&0&1
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&40df8c9&0&1
+    Serial : 5&40df8c9&0&1
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&1ec84238&0&4
+    Serial : 5&1ec84238&0&4
+
+  [2007-07-14T17:56:41Z]
+    Device : 6&ac461f8&0&3
+    Serial : 6&ac461f8&0&3
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&1ec84238&0&6
+    Serial : 5&1ec84238&0&6
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&1ec84238&0&4
+    Serial : 5&1ec84238&0&4
+
+  [2007-07-14T17:56:41Z]
+    Device : 000A270014B302AB
+    Serial : 000A270014B302AB
+
+  [2007-07-14T17:56:41Z]
+    Device : 8396
+    Serial : 8396
+
+  [2007-07-14T17:56:41Z]
+    Device : 8B76
+    Serial : 8B76
+
+  [2007-07-14T17:56:41Z]
+    Device : SNDK3066A40516400406
+    Serial : SNDK3066A40516400406
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&1ec84238&0&6
+    Serial : 5&1ec84238&0&6
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&1ec84238&0&8
+    Serial : 5&1ec84238&0&8
+
+  [2007-07-14T17:56:41Z]
+    Device : AA14012714842
+    Serial : AA14012714842
+
+  [2007-07-14T17:56:41Z]
+    Device : 10120515511949
+    Serial : 10120515511949
+
+  [2007-07-14T17:56:41Z]
+    Device : 10120516721518
+    Serial : 10120516721518
+
+  [2007-07-14T17:56:41Z]
+    Device : 23090525338296
+    Serial : 23090525338296
+
+  [2007-07-14T17:56:41Z]
+    Device : 5&40df8c9&0&2
+    Serial : 5&40df8c9&0&2
+
+  [2007-07-14T17:58:25Z]
+    Device : 20043513310C7A22D0C8
+    Serial : 20043513310C7A22D0C8
+
+  [2007-07-14T17:58:45Z]
+    Device : SNDK4DB2A41B47901706
+    Serial : SNDK4DB2A41B47901706
+
+
+============================================================
+DELETED FILES — RECYCLE BIN (9 records)
+============================================================
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Pictures\funny-monkey-3.jpg
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Documents\CameraShy.exe
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Pictures\monkey-nerd.jpg
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Pictures\Old Images
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Documents\Hacker Stuff\HEX32.DLL
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Pictures\funny-monkey-2.jpg
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Pictures\Logo-ACE-100x100.gif
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Documents\ValidateCreditCard.zip
+
+  [N/A]
+    Path : C:\Users\Wes Mantooth\Desktop\FileZilla_2_2_32_setup.exe
+
+
+============================================================
+PROGRAMS EXECUTED (18 records)
+============================================================
+
+  [2007-08-24T10:08:27Z]
+    Program   : DRVINST.EXE
+
+  [2007-08-24T10:54:24Z]
+    Program   : CONTROL.EXE
+
+  [2007-08-24T12:38:24Z]
+    Program   : CMD.EXE
+
+  [2007-08-24T12:45:00Z]
+    Program   : FTK IMAGER.EXE
+
+  [2007-08-24T12:47:33Z]
+    Program   : XCOPY.EXE
+
+  [2007-08-24T13:01:49Z]
+    Program   : COMPMGMTLAUNCHER.EXE
+
+  [2007-08-24T13:06:48Z]
+    Program   : IEUSER.EXE
+
+  [2007-08-24T13:06:48Z]
+    Program   : IEXPLORE.EXE
+
+  [2007-08-24T15:10:46Z]
+    Program   : AURORA.SCR
+
+  [2007-09-27T11:16:51Z]
+    Program   : DWM.EXE
+
+  [2007-09-27T11:16:51Z]
+    Program   : EXPLORER.EXE
+
+  [2007-09-27T12:09:36Z]
+    Program   : DEFRAG.EXE
+
+  [2007-09-27T12:09:36Z]
+    Program   : DFRGNTFS.EXE
+
+  [2007-09-27T13:09:17Z]
+    Program   : DLLHOST.EXE
+
+  [2007-09-27T13:10:25Z]
+    Program   : CONSENT.EXE
+
+  [2007-09-27T13:10:27Z]
+    Program   : DLLHOST.EXE
+
+  [2007-09-27T13:10:27Z]
+    Program   : DLLHOST.EXE
+
+  [2007-09-27T13:10:27Z]
+    Program   : EFSUI.EXE
+
+
+============================================================
+RECENTLY OPENED FILES (109 records)
+============================================================
+
+  [2007-03-06T02:04:26Z] E:\ManTooth Pix
+  [2007-03-06T02:06:03Z] C:\Users\Wes Mantooth\Documents\Checks
+  [2007-03-06T02:07:14Z] C:\Users\Wes Mantooth\Documents\Scripts
+  [2007-03-06T02:09:03Z] C:\Users\Wes Mantooth\Documents\Scripts\nationaltall.bmp
+  [2007-03-06T02:15:40Z] E:\VISTA DOCS
+  [2007-03-06T02:17:42Z] E:\Users\Wes Mantooth\Documents\EFS DOCS
+  [2007-03-06T02:17:49Z] C:\Users\Wes Mantooth\Documents\EFS DOCS\C money plates.doc
+  [2007-03-06T02:18:20Z] C:\Users\Wes Mantooth\Documents\EFS DOCS\Wes.doc
+  [2007-03-08T21:17:15Z] c:\Users\Wes Mantooth\Documents\ADS\readthis.txt
+  [2007-03-09T01:56:10Z] C:\Users\Wes Mantooth\Desktop\ScreenCaptures
+  [2007-03-09T02:52:46Z] D:\restoredsalty
+  [2007-03-28T20:04:57Z] C:\
+  [2007-03-28T20:23:48Z] F:\
+  [2007-04-10T20:23:42Z] C:\Users\Wes Mantooth\Documents\Mr Smee
+  [2007-04-10T20:23:42Z] C:\Users\Wes Mantooth\Documents\Mr Smee\165183.html
+  [2007-04-12T21:09:55Z] C:\Users\Wes Mantooth\Documents\funny.png
+  [2007-04-12T23:02:22Z] C:\Users\Wes Mantooth\Documents\order851797-2007-04-12-13-17-02.pdf
+  [2007-04-12T23:49:39Z] C:\Users\Wes Mantooth\Documents\Itunes.jpg
+  [2007-04-12T23:49:58Z] C:\Users\Wes Mantooth\Documents\Car Titles
+  [2007-04-12T23:49:58Z] C:\Users\Wes Mantooth\Documents\Car Titles\suits car title copy only.jpg
+  [2007-04-12T23:50:12Z] C:\Users\Wes Mantooth\Documents\Checks\08-15-05_arkansas_check.gif
+  [2007-04-12T23:50:20Z] C:\Users\Wes Mantooth\Documents\Checks\81064B.gif
+  [2007-04-12T23:50:25Z] C:\Users\Wes Mantooth\Documents\Checks\91064B.gif
+  [2007-04-12T23:50:32Z] C:\Users\Wes Mantooth\Documents\Checks\C01VNCCHK_e.gif
+  [2007-04-12T23:50:38Z] C:\Users\Wes Mantooth\Documents\Checks\DC_STBLUECLASSIC_md_1.jpg
+  [2007-04-12T23:50:44Z] C:\Users\Wes Mantooth\Documents\Checks\Z169PCHK_e.gif
+  [2007-04-12T23:50:55Z] C:\Users\Wes Mantooth\Documents\Scripts\Prescription2.gif
+  [2007-04-12T23:50:59Z] C:\Users\Wes Mantooth\Documents\Scripts\prescription.gif
+  [2007-04-12T23:51:04Z] C:\Users\Wes Mantooth\Documents\Scripts\doc-prescription.jpg
+  [2007-04-13T00:28:47Z] C:\Users\Wes Mantooth\Desktop\order851797-2007-04-12-13-17-02 (1).pdf
+  [2007-04-13T00:40:07Z] O:\Misc Docs
+  [2007-04-13T00:40:07Z] O:\Misc Docs\You Got it!.txt
+  [2007-04-13T00:41:19Z] F:\Sounds and Video
+  [2007-04-13T00:41:19Z] C:\Users\Wes Mantooth\Desktop\Funny Vids.zip
+  [2007-04-13T00:42:16Z] F:\Pix
+  [2007-04-13T00:42:16Z] F:\Pix\Hardcore.jpg
+  [2007-04-13T00:42:31Z] F:\Pix\Bill_Gates.gif
+  [2007-04-13T00:43:31Z] C:\Users\Wes Mantooth\Desktop\DSC00252.JPG
+  [2007-04-13T00:43:31Z] E:\Misc\Pix\Sweden pics\101MSDCF
+  [2007-04-13T00:52:31Z] H:\Super Secret Stuff
+  [2007-04-13T00:52:31Z] H:\Super Secret Stuff\burgerkingandronald.gif
+  [2007-04-13T00:52:44Z] H:\Super Secret Stuff\RobOnTheRange.jpg
+  [2007-04-13T00:52:49Z] H:\Super Secret Stuff\russ_2_Абажурный.doc
+  [2007-04-13T00:53:03Z] H:\Super Secret Stuff\russ_4_ящеркой.doc
+  [2007-04-13T00:53:23Z] H:\Super Secret Stuff\ar_test_نقيصته.doc
+  [2007-04-13T00:54:27Z] C:\Users\Wes Mantooth\Documents\Super Secret Stuff.zip
+  [2007-04-17T17:54:59Z] N/A
+  [2007-04-17T17:54:59Z] N/A
+  [2007-04-17T17:54:59Z] N/A
+  [2007-04-17T17:54:59Z] N/A
+  [2007-04-17T17:54:59Z] N/A
+  [2007-04-18T01:51:23Z] C:\Program Files\AccessData\DNA 3\Worker
+  [2007-04-18T01:51:23Z] C:\Program Files\AccessData\DNA 3\Worker\WorkerLog.txt
+  [2007-06-18T21:54:58Z] C:\mykey.txt
+  [2007-06-21T21:26:29Z] C:\Users\Wes Mantooth\Documents\Checks\seanbefore.zip
+  [2007-06-21T21:26:37Z] C:\Users\Wes Mantooth\Documents\Checks\seanbefore
+  [2007-06-21T21:26:37Z] C:\Users\Wes Mantooth\Documents\Checks\seanbefore\seanafter.jpg
+  [2007-06-21T21:26:42Z] C:\Users\Wes Mantooth\Documents\Checks\seanbefore\seanbefore.jpg
+  [2007-06-21T22:18:20Z] C:\Users\Wes Mantooth\Documents\Car Titles\67chev.jpg
+  [2007-07-07T21:07:08Z] C:\Users\Wes Mantooth\Desktop\New Text Document.txt
+  [2007-07-07T22:51:38Z] C:\Users\Wes Mantooth\AppData\Local\Microsoft\Windows Mail\Backup\new
+  [2007-07-07T22:51:38Z] C:\Users\Wes Mantooth\AppData\Local\Microsoft\Windows Mail\Backup\new\edb00007.log
+  [2007-07-07T22:57:24Z] C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Templates
+  [2007-07-12T22:46:42Z] C:\Users\Wes Mantooth\Desktop\Those who owes.xls
+  [2007-07-12T22:57:00Z] C:\Users\Wes Mantooth\Desktop\~ar1730.xar
+  [2007-07-12T22:57:00Z] C:\Users\Wes Mantooth\AppData\Roaming\Microsoft\Excel
+  [2007-07-12T23:14:17Z] E:\Business Ideas
+  [2007-07-12T23:14:17Z] E:\Business Ideas\untitled.bmp
+  [2007-07-12T23:14:53Z] E:\Business Ideas\Guts.bmp
+  [2007-07-12T23:15:11Z] E:\Business Ideas\Camera.bmp
+  [2007-07-12T23:28:08Z] E:\Business Ideas\ATM_THEFTS1.ppt
+  [2007-07-12T23:31:24Z] C:\Users\Wes Mantooth\Desktop\Ape_20shoot.gif
+  [2007-07-12T23:48:55Z] C:\Users\Wes Mantooth\Documents\Dear Sweetie.doc
+  [2007-08-24T10:10:36Z] C:\Users\Wes Mantooth\Desktop\Family Pix\Family Pix
+  [2007-08-24T10:10:36Z] C:\Users\Wes Mantooth\Desktop\Family Pix\Family Pix\Other Uncle Jon.jpg
+  [2007-08-24T10:10:42Z] C:\Users\Wes Mantooth\Desktop\Family Pix\Family Pix\Wes.jpg
+  [2007-08-24T10:10:51Z] C:\Users\Wes Mantooth\Desktop\Family Pix\Family Pix\Dear ole Dad.jpg
+  [2007-08-24T10:40:59Z] C:\Users\Wes Mantooth\Desktop\Juncion.exe\How to create and manipulate NTFS junction points.mht
+  [2008-02-12T20:51:34Z] F:\
+  [2008-02-12T20:51:34Z] E:\Secret Stuff\Jaws Cat.jpg
+  [2008-02-12T20:51:34Z] E:\Secret Stuff\cathelmet.jpg
+  [2008-02-12T20:51:34Z] E:\Secret Stuff\useles_cat.jpg
+  [2008-02-12T20:51:34Z] E:\Secret Stuff\clean-dazed-kitty.jpg
+  [2008-02-12T20:51:34Z] No preferred path found
+  [2008-02-12T20:51:47Z] E:\Secret Stuff
+  [2008-02-12T20:51:47Z] E:\Secret Stuff\fun81.jpg
+  [2008-02-12T20:51:47Z] No preferred path found
+  [2008-02-12T20:51:47Z] \\TRAINING-KEN\JOHNS STUFF\snaggle_kitty.jpg
+  [2008-02-12T21:35:59Z] C:\Users\Wes Mantooth\Documents\Tooth Docs\WM.tooth
+  [2008-02-12T21:37:42Z] C:\Users\Wes Mantooth\Documents\Tooth Docs\WM.fang
+  [2008-02-12T21:38:55Z] C:\Users\Wes Mantooth\Documents\Tooth Docs\Wes.fang
+  [N/A] C:/Users/Wes Mantooth/Desktop/order851797-2007-04-12-13-17-02 (1).pd
+  [N/A] C:/Users/Wes Mantooth/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/E8L9BFMS/order851797-2007-04-12-13-17-02.pd
+  [N/A] C:\Users\Wes Mantooth\Documents\Scripts\nationaltall.bmp
+  [N/A] C:\Users\Wes Mantooth\Documents\Scripts\prescription.gif
+  [N/A] C:\Users\Wes Mantooth\Documents\Scripts\nationaltal.gif
+  [N/A] C:\Users\Wes Mantooth\Documents\Scripts\nationaltall.gif
+  [N/A] Computer\HKEY_CURRENT_USER
+  [N/A] C:\Windows\system32\CompMgmt.msc
+  [N/A] C:\Windows\system32\eventvwr.msc
+  [N/A] C:\Windows\System32\diskmgmt.msc
+  [N/A] E:\iPod_Control\Music\F00\CVJW.mp3
+  [N/A] E:\iPod_Control\Music\F00\BDJS.mp3
+  [N/A] E:\Misc\Vids\GRAMMATON CLERIC.wmv
+  [N/A] F:\Sounds and Video\wizoz18d.wav
+  [N/A] C:\Users\Wes Mantooth\AppData\Local\Temp\wz2a9c\Bill is Doomed.avi
+  [N/A] F:\Sounds and Video\pf3.wav
+  [N/A] C:\Users\Public\Videos\Sample Videos\Bear.wmv
+  [N/A] C:\Users\Public\Videos\Sample Videos\Butterfly.wmv
+
+
+============================================================
+INSTALLED PROGRAMS (40 records)
+============================================================
+
+  AddressBook
+    Installed : 2006-11-02T07:21:44Z
+
+  Connection Manager
+    Installed : 2006-11-02T07:21:44Z
+
+  DirectDrawEx
+    Installed : 2006-11-02T07:21:44Z
+
+  Fontcore
+    Installed : 2006-11-02T07:21:44Z
+
+  IE40
+    Installed : 2006-11-02T07:21:44Z
+
+  IE4Data
+    Installed : 2006-11-02T07:21:44Z
+
+  IE5BAKEX
+    Installed : 2006-11-02T07:21:44Z
+
+  IEData
+    Installed : 2006-11-02T07:21:44Z
+
+  MobileOptionPack
+    Installed : 2006-11-02T07:21:44Z
+
+  SchedulingAgent
+    Installed : 2006-11-02T07:21:44Z
+
+  Adobe Flash Player 9 ActiveX v.9
+    Installed : 2007-02-27T13:41:18Z
+
+  DXM_Runtime
+    Installed : 2007-02-27T13:48:16Z
+
+  MPlayer2
+    Installed : 2007-02-27T13:48:16Z
+
+  AOLOCP_Y
+    Installed : 2007-02-27T13:50:53Z
+
+  AIM 6
+    Installed : 2007-02-27T13:51:04Z
+
+  Viewpoint Media Player
+    Installed : 2007-02-27T13:51:07Z
+
+  Windows Live Messenger v.8.1.0178.00
+    Installed : 2007-02-27T13:59:18Z
+
+  Trillian
+    Installed : 2007-02-27T14:09:25Z
+
+  WinRAR archiver
+    Installed : 2007-02-27T14:31:25Z
+
+  Yahoo! Messenger
+    Installed : 2007-02-27T14:58:14Z
+
+  Yahoo! Toolbar
+    Installed : 2007-02-27T14:58:29Z
+
+  Yahoo! Toolbar
+    Installed : 2007-02-27T14:58:31Z
+
+  Yahoo! Internet Mail
+    Installed : 2007-02-27T14:58:36Z
+
+  Yahoo! Browser Services
+    Installed : 2007-02-27T14:58:40Z
+
+  Yahoo! Install Manager
+    Installed : 2007-02-27T14:58:40Z
+
+  AOL Uninstaller (Choose which Products to Remove)
+    Installed : 2007-02-27T15:27:42Z
+
+  P2P Networking
+    Installed : 2007-02-27T17:33:51Z
+
+  BestCrypt 8.0
+    Installed : 2007-02-27T17:38:21Z
+
+  AccessData FTK Imager v.2.5.1
+    Installed : 2007-02-27T17:44:26Z
+
+  Mozilla Firefox (2.0.0.3) v.2.0.0.3 (en-US)
+    Installed : 2007-04-10T12:25:21Z
+
+  TrueCrypt
+    Installed : 2007-04-10T20:07:31Z
+
+  VNC Free Edition 4.1.2 v.4.1.2
+    Installed : 2007-04-11T11:54:00Z
+
+  Adobe Reader 8 v.8.0.0
+    Installed : 2007-04-12T17:56:59Z
+
+  QuickTime
+    Installed : 2007-04-13T18:06:51Z
+
+  AccessData Registry Viewer v.1.5
+    Installed : 2007-04-13T18:31:22Z
+
+  AccessData DNA 3 Worker v.3.3
+    Installed : 2007-04-17T14:28:46Z
+
+  RTC Client API v1.2 v.1.2.0000
+    Installed : 2007-04-17T16:13:27Z
+
+  Microsoft Office Standard Edition 2003 v.11.0.5614.0
+    Installed : 2007-04-17T17:55:28Z
+
+  FileZilla (remove only)
+    Installed : 2007-06-23T18:53:53Z
+
+  WebEx
+    Installed : 2007-10-10T04:42:40Z
+
+
+============================================================
+EMAIL MESSAGES (66 records)
+============================================================
+
+  [2007-02-27T22:38:42Z]
+    Subject : Welcome to Windows Mail
+    From    : N/A
+
+  [2007-04-10T17:49:50Z]
+    Subject : It's easy to switch to Gmail!
+    From    : N/A
+
+  [2007-04-10T17:49:50Z]
+    Subject : Gmail is different. Here's what you need to know.
+    From    : N/A
+
+  [2007-04-10T21:03:28Z]
+    Subject : A trade
+    From    : N/A
+
+  [2007-04-12T20:17:02Z]
+    Subject : PGP Trial Software Order Confirmation: 851797  ::EW49TU6IB6::
+    From    : N/A
+
+  [2007-04-12T20:35:50Z]
+    Subject : HEY
+    From    : N/A
+
+  [2007-04-13T08:06:28Z]
+    Subject : Publish Your PGP Key - Trial Encryption Software that you downloaded
+    From    : N/A
+
+  [2007-05-11T08:05:29Z]
+    Subject : PGP Encryption Software Rated "Best Buy" by SC Magazine
+    From    : N/A
+
+  [2007-06-20T17:25:36Z]
+    Subject : Welcome to Microsoft Office Outlook 2003
+    From    : N/A
+
+  [2007-06-20T17:50:35Z]
+    Subject : Microsoft Office Outlook Test Message
+    From    : N/A
+
+  [2007-06-20T17:56:25Z]
+    Subject : Whats up in D town?
+    From    : N/A
+
+  [2007-06-20T18:01:59Z]
+    Subject : Re: Whats up in D town?
+    From    : N/A
+
+  [2007-06-20T18:09:34Z]
+    Subject : Re: Whats up in D town?
+    From    : N/A
+
+  [2007-06-21T18:00:00Z]
+    Subject : RE: Whats up in D town?
+    From    : N/A
+
+  [2007-06-21T21:06:00Z]
+    Subject : RE: Whats up in D town?
+    From    : N/A
+
+  [2007-06-21T22:38:32Z]
+    Subject : Joan Acetone
+    From    : N/A
+
+  [2007-06-21T22:42:55Z]
+    Subject : Seth Meth
+    From    : N/A
+
+  [2007-06-21T22:44:10Z]
+    Subject : Crystal Meth
+    From    : N/A
+
+  [2007-06-21T23:03:37Z]
+    Subject : Angelo Pugliese
+    From    : N/A
+
+  [2007-06-21T23:03:40Z]
+    Subject : Pharmacy Employment Service
+    From    : N/A
+
+  [2007-06-21T23:03:47Z]
+    Subject : Dirk Hirschmeier
+    From    : N/A
+
+  [2007-06-21T23:03:54Z]
+    Subject : Jonathan Garside Esq.
+    From    : N/A
+
+  [2007-06-21T23:04:01Z]
+    Subject : Geri Pohlkamp
+    From    : N/A
+
+  [2007-06-21T23:05:08Z]
+    Subject : Meet with Seth about boat
+    From    : N/A
+
+  [2007-06-21T23:05:50Z]
+    Subject : Go check stealing
+    From    : N/A
+
+  [2007-06-21T23:13:53Z]
+    Subject : Make Meth
+    From    : N/A
+
+  [2007-06-21T23:14:01Z]
+    Subject : Steal checks
+    From    : N/A
+
+  [2007-06-21T23:14:05Z]
+    Subject : wash checks
+    From    : N/A
+
+  [2007-06-21T23:14:07Z]
+    Subject : pass checks
+    From    : N/A
+
+  [2007-06-21T23:14:10Z]
+    Subject : make $$$
+    From    : N/A
+
+  [2007-06-21T23:14:59Z]
+    Subject : Go to KMart and buy Acetone
+    From    : N/A
+
+  [2007-06-21T23:15:12Z]
+    Subject : Go to the apartment complex and rip checks
+    From    : N/A
+
+  [2007-06-21T23:15:19Z]
+    Subject : call your mom
+    From    : N/A
+
+  [2007-06-21T23:15:33Z]
+    Subject : Go to jail.  Do not pass go!
+    From    : N/A
+
+  [2007-06-21T23:25:47Z]
+    Subject : N/A
+    From    : N/A
+
+  [2007-06-21T23:26:00Z]
+    Subject : RE: Whats up in D town?
+    From    : N/A
+
+  [2007-07-11T20:27:15Z]
+    Subject : Re: New Venture
+    From    : N/A
+
+  [2007-07-11T20:27:15Z]
+    Subject : Re: New Venture
+    From    : N/A
+
+  [2007-07-11T20:37:10Z]
+    Subject : Returned mail: delivery problems encountered
+    From    : N/A
+
+  [2007-07-12T23:19:00Z]
+    Subject : New Venture
+    From    : N/A
+
+  [2007-07-12T23:19:00Z]
+    Subject : New Venture
+    From    : N/A
+
+  [2007-07-12T23:36:36Z]
+    Subject : Hey Mom
+    From    : N/A
+
+  [2007-07-12T23:36:36Z]
+    Subject : Hey Mom
+    From    : N/A
+
+  [2007-07-23T17:59:09Z]
+    Subject : Stuff
+    From    : N/A
+
+  [2007-07-23T18:27:11Z]
+    Subject : RE: Stuff
+    From    : N/A
+
+  [2007-07-23T21:26:10Z]
+    Subject : You will love this....
+    From    : N/A
+
+  [2007-07-23T22:59:26Z]
+    Subject : N/A
+    From    : N/A
+
+  [2007-07-24T15:39:54Z]
+    Subject : Sweet Info
+    From    : N/A
+
+  [2007-07-24T17:38:05Z]
+    Subject : Girlfriend
+    From    : N/A
+
+  [2007-07-24T17:38:54Z]
+    Subject : Forgot photo
+    From    : N/A
+
+  [2007-07-24T21:02:29Z]
+    Subject : Re: Stuff
+    From    : N/A
+
+  [2007-08-01T19:09:08Z]
+    Subject : Letter
+    From    : N/A
+
+  [N/A]
+    Subject : Read: Letter
+    From    : N/A
+
+  [N/A]
+    Subject : Pharmasolutions Expo 2007
+    From    : N/A
+
+  [N/A]
+    Subject : Pharmacy
+    From    : N/A
+
+  [N/A]
+    Subject : Combating Fraud and Corruption in the Public Sector
+    From    : N/A
+
+  [N/A]
+    Subject : Credentialing and Identity Assurance Conference
+    From    : N/A
+
+  [N/A]
+    Subject : Collecting and Processing Intelligence Information: A Two-Day Basic Workshop for First Responders, Security Professionals and the Intelligence Community
+    From    : N/A
+
+  [N/A]
+    Subject : Communion Sunday -- bring non-perishable food items
+    From    : N/A
+
+  [N/A]
+    Subject : Y\M
+    From    : N/A
+
+  [N/A]
+    Subject : Ribbon Cutting - Texas Star Pharmacy
+    From    : N/A
+
+  [N/A]
+    Subject : LocalFreebusy
+    From    : N/A
+
+  [N/A]
+    Subject : N/A
+    From    : N/A
+
+  [N/A]
+    Subject : N/A
+    From    : N/A
+
+  [N/A]
+    Subject : N/A
+    From    : N/A
+
+  [N/A]
+    Subject : N/A
+    From    : N/A
+
+
+============================================================
+ENCRYPTION DETECTED (2 records)
+============================================================
+
+  File    : N/A
+  Comment : Password protection detected.
+
+  File    : N/A
+  Comment : Password protection detected.
+
+
+============================================================
+EXTENSION MISMATCHES (9 records)
+============================================================
+
+  File      : /Users/Wes Mantooth/Documents/My poem.txt:HARDCORE.JPG
+
+  File      : /Users/Wes Mantooth/Documents/ADS/readthis.txt:pfah603.jpg
+
+  File      : /Users/Wes Mantooth/AppData/Roaming/Microsoft/Excel/~ar1730.xar
+
+  File      : /Users/Wes Mantooth/AppData/Roaming/Microsoft/Outlook/Outlook.srs
+
+  File      : /Users/Wes Mantooth/AppData/Roaming/AOL/C_AOL 9.0/IDB/sap.dat
+
+  File      : /Users/Wes Mantooth/AppData/Local/Microsoft/Windows Mail/Local Folders/Inbox/43467A94-00000010.eml/atm.bmp
+
+  File      : /Users/Wes Mantooth/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/OESSI8GM/images[1].jpg.copy0
+
+  File      : /Users/Wes Mantooth/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/OESSI8GM/images[5].jpg.copy0
+
+  File      : /Users/Wes Mantooth/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/OESSI8GM/images[7].jpg.copy0
+
+
+============================================================
+ACCOUNTS (61 records)
+============================================================
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+  Account : N/A
+  Type    : EMAIL
+
+
+============================================================
+SHELL BAGS — FOLDER ACCESS HISTORY (110 records)
+============================================================
+
+  [2006-11-02T07:19:44Z] N/A
+  [2006-11-02T07:19:44Z] N/A
+  [2007-02-27T13:04:16Z] N/A
+  [2007-02-27T13:04:16Z] N/A
+  [2007-02-27T13:48:10Z] N/A
+  [2007-02-27T13:48:10Z] N/A
+  [2007-02-27T13:51:06Z] N/A
+  [2007-02-27T13:51:06Z] N/A
+  [2007-02-27T14:31:26Z] N/A
+  [2007-02-27T14:31:26Z] N/A
+  [2007-02-27T14:58:16Z] N/A
+  [2007-02-27T14:58:16Z] N/A
+  [2007-02-27T14:58:38Z] N/A
+  [2007-02-27T14:58:38Z] N/A
+  [2007-02-27T15:28:18Z] N/A
+  [2007-02-27T15:28:18Z] N/A
+  [2007-02-27T17:44:04Z] N/A
+  [2007-02-27T17:44:04Z] N/A
+  [2007-03-08T19:13:08Z] N/A
+  [2007-03-08T19:13:08Z] N/A
+  [2007-03-08T20:24:30Z] N/A
+  [2007-03-08T20:24:30Z] N/A
+  [2007-03-19T16:55:38Z] N/A
+  [2007-03-19T16:55:38Z] N/A
+  [2007-03-28T14:36:56Z] N/A
+  [2007-03-28T14:36:56Z] N/A
+  [2007-04-10T12:25:22Z] N/A
+  [2007-04-10T12:25:22Z] N/A
+  [2007-04-10T20:07:34Z] N/A
+  [2007-04-10T20:07:34Z] N/A
+  [2007-04-12T17:32:08Z] N/A
+  [2007-04-12T17:32:08Z] N/A
+  [2007-04-12T17:56:30Z] N/A
+  [2007-04-12T17:56:30Z] N/A
+  [2007-04-12T18:14:28Z] N/A
+  [2007-04-12T18:14:28Z] N/A
+  [2007-04-12T19:10:48Z] N/A
+  [2007-04-12T19:10:48Z] N/A
+  [2007-04-12T19:12:28Z] N/A
+  [2007-04-12T19:12:28Z] N/A
+  [2007-04-12T19:13:40Z] N/A
+  [2007-04-12T19:13:40Z] N/A
+  [2007-04-12T23:52:56Z] N/A
+  [2007-04-12T23:52:56Z] N/A
+  [2007-04-13T18:05:30Z] N/A
+  [2007-04-13T18:05:30Z] N/A
+  [2007-04-13T18:06:44Z] N/A
+  [2007-04-13T18:06:44Z] N/A
+  [2007-04-13T18:45:48Z] N/A
+  [2007-04-13T18:45:48Z] N/A
+  [2007-06-21T17:55:44Z] N/A
+  [2007-06-21T17:55:44Z] N/A
+  [2007-06-23T18:53:56Z] N/A
+  [2007-06-23T18:53:56Z] N/A
+  [2007-07-07T15:37:08Z] N/A
+  [2007-07-07T15:37:08Z] N/A
+  [2007-07-12T17:28:46Z] N/A
+  [2007-07-12T17:28:46Z] N/A
+  [2007-07-12T17:31:58Z] N/A
+  [2007-07-12T17:31:58Z] N/A
+  [2007-07-12T17:58:08Z] N/A
+  [2007-07-12T17:58:08Z] N/A
+  [2007-07-12T18:01:24Z] N/A
+  [2007-07-12T18:01:24Z] N/A
+  [2007-07-25T18:48:00Z] N/A
+  [2007-07-25T18:48:00Z] N/A
+  [2007-07-25T18:48:02Z] N/A
+  [2007-07-25T18:48:02Z] N/A
+  [2007-07-26T14:58:08Z] N/A
+  [2007-07-26T14:58:08Z] N/A
+  [2007-07-26T18:00:00Z] N/A
+  [2007-07-26T18:00:00Z] N/A
+  [2007-07-26T18:11:14Z] N/A
+  [2007-07-26T18:11:14Z] N/A
+  [2007-07-26T18:11:16Z] N/A
+  [2007-07-26T18:11:16Z] N/A
+  [2007-08-07T03:02:50Z] N/A
+  [2007-08-07T03:02:50Z] N/A
+  [2007-08-07T03:04:02Z] N/A
+  [2007-08-07T03:04:02Z] N/A
+  [2007-08-07T03:06:34Z] N/A
+  [2007-08-07T03:06:34Z] N/A
+  [2007-08-07T03:06:58Z] N/A
+  [2007-08-07T03:06:58Z] N/A
+  [2007-08-17T07:23:14Z] N/A
+  [2007-08-17T07:23:14Z] N/A
+  [2007-08-17T08:51:46Z] N/A
+  [2007-08-17T08:51:46Z] N/A
+  [2007-08-24T07:31:36Z] N/A
+  [2007-08-24T07:31:36Z] N/A
+  [2007-08-24T07:37:50Z] N/A
+  [2007-08-24T07:37:50Z] N/A
+  [2007-09-27T08:26:14Z] N/A
+  [2007-09-27T08:26:14Z] N/A
+  [2007-09-27T11:02:10Z] N/A
+  [2007-09-27T11:02:10Z] N/A
+  [2007-10-11T14:45:30Z] N/A
+  [2007-10-11T14:45:30Z] N/A
+  [2008-02-12T10:59:54Z] N/A
+  [2008-02-12T10:59:54Z] N/A
+  [2008-02-12T11:04:58Z] N/A
+  [2008-02-12T11:04:58Z] N/A
+  [2008-02-12T13:38:58Z] N/A
+  [2008-02-12T13:38:58Z] N/A
+  [2008-02-12T14:06:04Z] N/A
+  [2008-02-12T14:06:04Z] N/A
+  [2008-02-12T14:43:10Z] N/A
+  [2008-02-12T14:43:10Z] N/A
+  [N/A] N/A
+  [N/A] N/A
+
+
+============================================================
+END OF REPORT
+============================================================
+
+Report generated: 2026-05-28T20:27:31Z
+Total artifacts : 1,109

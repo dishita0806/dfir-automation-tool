@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2026/05/29 01:10:36 (IST)</CreatedDate>
+  <ModifiedDate>2026/05/29 01:10:44 (IST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.23.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.23.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>mantooth_case_20260529_011036</Name>
+    <DisplayName>mantooth_case</DisplayName>
+    <Number/>
+    <Examiner/>
+    <ExaminerPhone/>
+    <ExaminerEmail/>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>
