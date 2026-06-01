@@ -1,6 +1,6 @@
 # config.py
 # Central configuration for the DFIR pipeline.
-# Change paths here — applies everywhere automatically.
+# Change paths here—applies everywhere automatically.
 # This is the ONLY file with specific paths.
 
 import os
