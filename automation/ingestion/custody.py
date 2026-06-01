@@ -1,6 +1,6 @@
 # automation/ingestion/custody.py
 # Chain of custody and audit logging for the DFIR pipeline.
-# Append-only JSONL log — one JSON object per line.
+# Append-only JSONL log—one JSON object per line.
 # Works for any image, any case, any pipeline run.
 
 import json
