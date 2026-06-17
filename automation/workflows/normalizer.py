@@ -59,6 +59,15 @@ TIMESTAMP_FIELDS = {
     "Date", "Date/Time"
 }
 
+# Artifact types that genuinely reference a file on disk.
+# Other types (web history, accounts, USB devices, etc.) are
+# activity records — they don't represent a "file" with an extension.
+FILE_REFERENCING_TYPES = {
+    "recycle_bin", "recent_document", "extension_mismatch",
+    "exif_metadata", "user_content", "associated_object",
+    "run_program", "installed_program"
+}
+
 
 def _get_primary_timestamp(attributes: dict) -> str:
     priority = [
@@ -205,11 +214,135 @@ def load_all_artifacts(db_path: str) -> list:
     return records
 
 
+def split_by_artifact_type(records: list, output_dir: str,
+                            case_id: str = None) -> dict:
+    """
+    Split normalized artifacts into separate JSONL files,
+    one per artifact_type. Useful for RAG/LLM systems that
+    benefit from category-bound context (e.g. retrieving only
+    'web_history' or only 'usb_device' records).
+
+    Args:
+        records:    list of normalized artifact dicts
+        output_dir: base directory — files go in output_dir/by_type/
+        case_id:    optional custody case ID
+
+    Returns:
+        dict mapping artifact_type -> output file path
+    """
+    by_type_dir = os.path.join(output_dir, "by_type")
+    os.makedirs(by_type_dir, exist_ok=True)
+
+    grouped = defaultdict(list)
+    for r in records:
+        grouped[r["artifact_type"]].append(r)
+
+    written = {}
+    for artifact_type, recs in grouped.items():
+        path = os.path.join(by_type_dir, f"{artifact_type}.jsonl")
+        with open(path, "w", encoding="utf-8") as f:
+            for r in recs:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        written[artifact_type] = path
+
+    print(f"\n  ✓ Split by artifact type under {by_type_dir}/")
+    for artifact_type, path in sorted(
+            written.items(), key=lambda x: -len(grouped[x[0]])):
+        print(f"    {artifact_type:<25} {len(grouped[artifact_type]):>5}  -> {os.path.basename(path)}")
+
+    if case_id:
+        from automation.ingestion.custody import log_action
+        log_action(case_id, "type_split_complete", {
+            "output_dir":    by_type_dir,
+            "files_written": len(written),
+            "status":        "success"
+        })
+
+    return written
+
+
+def split_by_file_extension(records: list, output_dir: str,
+                             case_id: str = None) -> dict:
+    """
+    Split file-referencing artifacts into JSONL files grouped by
+    the extension of the file they reference (.jpg, .exe, .zip, etc.).
+    Artifacts that don't represent an actual file on disk (web history,
+    accounts, USB devices, etc.) go into activity_records.jsonl.
+
+    Adds a "file_extension" field to each file-referencing record.
+
+    Args:
+        records:    list of normalized artifact dicts
+        output_dir: base directory — files go in output_dir/by_extension/
+        case_id:    optional custody case ID
+
+    Returns:
+        dict mapping extension (or "activity") -> output file path
+    """
+    out_dir = os.path.join(output_dir, "by_extension")
+    os.makedirs(out_dir, exist_ok=True)
+
+    by_ext = defaultdict(list)
+    activity_records = []
+
+    for r in records:
+        if r["artifact_type"] not in FILE_REFERENCING_TYPES:
+            activity_records.append(r)
+            continue
+
+        raw  = r.get("raw_data", {}) or {}
+        path = raw.get("Path") or raw.get("Name") or r.get("source_file") or ""
+
+        _, ext = os.path.splitext(path)
+        ext = ext.lower().strip()
+
+        if not ext or len(ext) > 6 or not ext.replace(".", "").isalnum():
+            ext = "no_extension"
+
+        r["file_extension"] = ext
+        by_ext[ext].append(r)
+
+    written = {}
+
+    for ext, recs in by_ext.items():
+        safe_ext = ext.lstrip(".") if ext != "no_extension" else "no_extension"
+        path = os.path.join(out_dir, f"files_{safe_ext}.jsonl")
+        with open(path, "w", encoding="utf-8") as f:
+            for r in recs:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        written[ext] = path
+
+    # Activity records (web history, accounts, USB, etc.)
+    activity_path = os.path.join(out_dir, "activity_records.jsonl")
+    with open(activity_path, "w", encoding="utf-8") as f:
+        for r in activity_records:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    written["activity"] = activity_path
+
+    print(f"\n  ✓ Split by file extension under {out_dir}/")
+    for ext, recs in sorted(by_ext.items(), key=lambda x: -len(x[1])):
+        print(f"    files_{ext.lstrip('.'):<15} {len(recs):>5}")
+    print(f"    activity_records       {len(activity_records):>5}")
+
+    if case_id:
+        from automation.ingestion.custody import log_action
+        log_action(case_id, "extension_split_complete", {
+            "output_dir":    out_dir,
+            "files_written": len(written),
+            "status":        "success"
+        })
+
+    return written
+
+
 def run_normalizer(db_path: str,
                    case_id: str = None) -> int:
     """
     Normalize all artifacts from any autopsy.db.
-    Output goes to data/normalized/artifacts.jsonl
+    Output goes to:
+      data/normalized/artifacts.jsonl          — combined, all records
+      data/normalized/by_type/<type>.jsonl     — split by artifact_type
+      data/normalized/by_extension/files_*.jsonl — split by file extension
 
     Args:
         db_path:  path to any autopsy.db
@@ -241,6 +374,10 @@ def run_normalizer(db_path: str,
     print(f"\n  ✓ Normalization complete")
     print(f"    Total records : {total:,}")
     print(f"    Output        : {output_path}")
+
+    # Additional bifurcations for RAG/LLM retrieval
+    split_by_artifact_type(records, NORMALIZED_DIR, case_id=case_id)
+    split_by_file_extension(records, NORMALIZED_DIR, case_id=case_id)
 
     if case_id:
         from automation.ingestion.custody import log_action
